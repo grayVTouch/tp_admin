@@ -10,7 +10,7 @@
     <div class="layui-form-item">
         <label class="layui-form-label">店铺名称</label>
         <div class="layui-input-block">
-            <input type="text" name="name" required="required" value="{$shop->name ?? ''}" required="required" lay-verify="required" class="layui-input">
+            <input type="text" name="name" value="{$shop->name ?? ''}" lay-verify="required" class="layui-input">
         </div>
     </div>
 
@@ -25,6 +25,37 @@
             <div class="line" id="image-preview">
                 <img src="{$shop->pic_explain ?? ''}" class="image">
             </div>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">店铺介绍</label>
+        <div class="layui-input-block">
+            <input type="text" name="introduction" value="{$shop->introduction ?? ''}" lay-verify="required" class="layui-input">
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">客服id</label>
+        <div class="layui-input-block">
+            <input type="text" name="kf_uid" value="{$shop->kf_uid ?? ''}" lay-verify="required" class="layui-input">
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">商品审核</label>
+        <div class="layui-input-block">
+            <input type="text" name="type" value="{$shop->type_explain ?? ''}" readonly="readonly" class="layui-input">
+            <span class="font-gray f-12">该字段禁止修改</span>
+        </div>
+
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">店铺状态</label>
+        <div class="layui-input-block">
+            <input type="text" name="type" value="{$shop->status_explain ?? ''}" readonly="readonly" class="layui-input">
+            <span class="font-gray f-12">该字段禁止修改</span>
         </div>
     </div>
 

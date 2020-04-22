@@ -13,6 +13,7 @@ use function admin\error;
 use function admin\success;
 use function admin\user;
 use app\admin\action\UserAction;
+use app\admin\model\ShopStoreModel;
 use app\admin\model\UserInfoModel;
 use app\admin\model\UserModel;
 
@@ -20,9 +21,9 @@ class Shop extends Auth
 {
     public function shopView()
     {
-        $shop_goods_auth = config('business.shop_goods_auth');
+        $shop = ShopStoreModel::findByUId(user()->id);
         $this->assign([
-            'shop_goods_auth' => $shop_goods_auth
+            'shop' => $shop ,
         ]);
         return $this->fetch('shop');
     }

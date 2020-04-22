@@ -15,7 +15,7 @@ use function admin\image_url;
 
 class CommunityAnnounceModel extends Model
 {
-    protected $table = 'tk_community_announce';
+    protected $table = 'tp_community_announce';
 
     public static function single($m = null)
     {

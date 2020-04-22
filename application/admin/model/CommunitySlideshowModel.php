@@ -15,7 +15,7 @@ use function admin\image_url;
 
 class CommunitySlideshowModel extends Model
 {
-    protected $table = 'tk_community_slideshow';
+    protected $table = 'tp_community_slideshow';
 
     public static function single($m = null)
     {

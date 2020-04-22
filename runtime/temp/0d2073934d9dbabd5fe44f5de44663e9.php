@@ -1,4 +1,4 @@
-<?php /*a:2:{s:60:"D:\work\code\nesm_shop\application\admin\view\shop\shop.html";i:1587527100;s:62:"D:\work\code\nesm_shop\application\admin\view\public\base.html";i:1566960893;}*/ ?>
+<?php /*a:2:{s:68:"D:\work\code\nesm_shop\application\admin\view\system_param\list.html";i:1570366766;s:62:"D:\work\code\nesm_shop\application\admin\view\public\base.html";i:1566960893;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -97,67 +97,34 @@
         </div>
         <div class="content">
             
-<form class="layui-form" id="form">
+<!-- 标题 -->
+<div class="filter-option">
+    <form class="layui-form layui-form-pane" id="search">
 
-    <div class="layui-form-item">
-        <label class="layui-form-label">店铺名称</label>
-        <div class="layui-input-block">
-            <input type="text" name="name" value="<?php echo isset($shop->name) ? htmlentities($shop->name) : ''; ?>" lay-verify="required" class="layui-input">
-        </div>
-    </div>
-
-    <div class="layui-form-item">
-        <label class="layui-form-label">店铺图标</label>
-        <div class="layui-input-block">
-            <div class="line">
-                <button type="button" class="layui-btn" id="image">
-                    <i class="layui-icon">&#xe67c;</i>图标
-                </button>
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label">ID</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="id" class="layui-input">
+                </div>
             </div>
-            <div class="line" id="image-preview">
-                <img src="<?php echo isset($shop->pic_explain) ? htmlentities($shop->pic_explain) : ''; ?>" class="image">
+
+            <div class="layui-inline">
+                <button class="layui-btn" type="submit" lay-submit lay-filter="search">查询</button>
             </div>
         </div>
-    </div>
+    </form>
+</div>
 
-    <div class="layui-form-item">
-        <label class="layui-form-label">店铺介绍</label>
-        <div class="layui-input-block">
-            <input type="text" name="introduction" value="<?php echo isset($shop->introduction) ? htmlentities($shop->introduction) : ''; ?>" lay-verify="required" class="layui-input">
-        </div>
-    </div>
+<div class="operation">
+    <!--<buttom class="layui-btn" data-link="<?php echo htmlentities($ctrl_url); ?>/addView?mode=add" id="add"><i class="layui-icon">&#xe654;</i>添加</buttom>-->
+    <!--<button class="layui-btn" id="delete-selected"><i class="layui-icon">&#xe640;</i>删除选中项</button>-->
+</div>
 
-    <div class="layui-form-item">
-        <label class="layui-form-label">客服id</label>
-        <div class="layui-input-block">
-            <input type="text" name="kf_uid" value="<?php echo isset($shop->kf_uid) ? htmlentities($shop->kf_uid) : ''; ?>" lay-verify="required" class="layui-input">
-        </div>
-    </div>
-
-    <div class="layui-form-item">
-        <label class="layui-form-label">商品审核</label>
-        <div class="layui-input-block">
-            <input type="text" name="type" value="<?php echo isset($shop->type_explain) ? htmlentities($shop->type_explain) : ''; ?>" readonly="readonly" class="layui-input">
-            <span class="font-gray f-12">该字段禁止修改</span>
-        </div>
-
-    </div>
-
-    <div class="layui-form-item">
-        <label class="layui-form-label">店铺状态</label>
-        <div class="layui-input-block">
-            <input type="text" name="type" value="<?php echo isset($shop->status_explain) ? htmlentities($shop->status_explain) : ''; ?>" readonly="readonly" class="layui-input">
-            <span class="font-gray f-12">该字段禁止修改</span>
-        </div>
-    </div>
-
-    <div class="layui-form-item">
-        <div class="layui-input-block">
-            <button class="layui-btn" lay-submit="submit" lay-filter="form">立即提交</button>
-        </div>
-    </div>
-</form>
-
+<!-- 列表 -->
+<div class="list">
+    <table class="layui-hide" id="list" lay-filter="table"></table>
+</div>
 
         </div>
     </div>
@@ -171,7 +138,14 @@
 <script src="<?php echo htmlentities($module_url); ?>/public/js/currency.js?version=<?php echo htmlentities($version); ?>"></script>
 <script src="<?php echo htmlentities($module_url); ?>/public/js/public.js?version=<?php echo htmlentities($version); ?>"></script>
 
-<script src="<?php echo htmlentities($ctrl_res_url); ?>/js/shop.js?version=<?php echo htmlentities($version); ?>"></script>
+<script type="text/html" id="bb_switch">
+    <input type="checkbox" name="bb_switch" value="{{d.id}}" lay-skin="switch" lay-text="开启|关闭" lay-filter="bb_switch" {{ d.val == 1 ? 'checked' : '' }}>
+</script>
+<script type="text/html" id="operation">
+    <button class="layui-btn layui-btn-xs" lay-event="edit"><i class="layui-icon">&#xe642;</i>编辑</button>
+    <!--<button class="layui-btn layui-btn-xs layui-btn-danger" lay-event="del"><i class="layui-icon">&#xe640;</i>删除</button>-->
+</script>
+<script src="<?php echo htmlentities($ctrl_res_url); ?>/js/list.js?version=<?php echo htmlentities($version); ?>"></script>
 
 </body>
 </html>

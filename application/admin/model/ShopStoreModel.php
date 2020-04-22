@@ -9,9 +9,20 @@
 namespace app\admin\model;
 
 
+use function admin\get_value;
+
 class ShopStoreModel extends Model
 {
     protected $table = 'tp_shop_store';
+
+    public static function single($m = null)
+    {
+        if (empty($m)) {
+            return ;
+        }
+        $m->type_explain = get_value('business.shop_goods_auth' , $m->type);
+        $m->status_explain = get_value('business.shop_status' , $m->status);
+    }
 
     public static function findByUid($uid)
     {
@@ -20,6 +31,7 @@ class ShopStoreModel extends Model
         if (empty($res)) {
             return ;
         }
+        self::single($res);
         return $res;
     }
 }

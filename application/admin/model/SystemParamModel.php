@@ -14,7 +14,7 @@ use function admin\get_value;
 
 class SystemParamModel extends Model
 {
-    protected $table = 'cq_system_param';
+    protected $table = 'tp_system_param';
 
     public static function single($m = null)
     {

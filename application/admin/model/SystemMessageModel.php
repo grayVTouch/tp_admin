@@ -15,7 +15,7 @@ use function admin\image_url;
 
 class SystemMessageModel extends Model
 {
-    protected $table = 'cq_system_message';
+    protected $table = 'tp_system_message';
 
     public static function single($m = null)
     {

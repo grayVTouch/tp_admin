@@ -15,7 +15,7 @@ use function admin\image_url;
 
 class SystemMessageTypeModel extends Model
 {
-    protected $table = 'cq_system_message_type';
+    protected $table = 'tp_system_message_type';
 
     // 检查 type 是否存在
     public static function findByType(int $type)
