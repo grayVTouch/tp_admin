@@ -1,0 +1,25 @@
+.content > * {
+    margin-bottom: 20px;
+}
+
+.content > *:nth-last-of-type(1) {
+    margin-bottom: 0;
+}
+
+.body-header {
+    position: relative;
+}
+
+.body-header > .left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 160px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.body-header > .right {
+    margin-left: 160px;
+
+}

@@ -1,0 +1,57 @@
+{extend name='public/iframe' /}
+
+{block name='link'}
+<link rel="stylesheet" href="{$public_url}/css/thing.css?version={$version}">
+<link rel="stylesheet" href="{$ctrl_res_url}/css/thing.css?version={$version}">
+{/block}
+
+{block name='body'}
+<!--<form class="layui-form layui-form-pane" method="post" id="form">-->
+<form class="layui-form" id="form">
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">真实姓名</label>
+        <div class="layui-input-block"><span class="layui-run-text layui-run-text-middle">{$thing->info->id_name ?? ''}</span></div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">身份证号码</label>
+        <div class="layui-input-block"><span class="layui-run-text layui-run-text-middle">{$thing->info->id_num ?? ''}</span></div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">正面</label>
+        <div class="layui-input-block">
+            <img src="{$thing->info->id_front ?? '/static/admin/default_image.jpg'}" class="image">
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">反面</label>
+        <div class="layui-input-block">
+            <img src="{$thing->info->id_back ?? '/static/admin/default_image.jpg'}" class="image">
+        </div>
+    </div>
+
+    <div class="layui-form-item layui-form-text">
+        <label class="layui-form-label">认证状态<b class="font-red">*</b></label>
+        <div class="layui-input-block">
+            {foreach $is_verify as $k => $v}
+            <input type="radio" name="is_verify" value="{$k}" title="{$v}" {if $k == $thing->is_verify}checked="checked"{/if}>
+            {/foreach}
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <div class="layui-input-block">
+            <input type="hidden" name="id" value="{$thing->id ?? ''}"  class="layui-input">
+            <button class="layui-btn" lay-submit lay-filter="form">立即提交</button>
+        </div>
+    </div>
+
+</form>
+{/block}
+
+{block name='script'}
+<script src="{$ctrl_res_url}/js/real_name_verified.js?version={$version}"></script>
+{/block}

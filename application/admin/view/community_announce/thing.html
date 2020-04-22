@@ -1,0 +1,70 @@
+{extend name='public/base' /}
+
+{block name='link'}
+<link rel="stylesheet" href="{$public_url}/css/thing.css?version={$version}">
+<link rel="stylesheet" href="{$public_url}/css/wang-editor.css?version={$version}">
+<link rel="stylesheet" href="{$plugin_url}/wang-editor/release/wangEditor.css?version={$version}">
+<link rel="stylesheet" href="{$ctrl_res_url}/css/thing.css?version={$version}">
+{/block}
+
+{block name='body'}
+<!--<form class="layui-form layui-form-pane" method="post" id="form">-->
+<form class="layui-form" id="form">
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">标题<b class="font-red">*</b></label>
+        <div class="layui-input-block">
+            <input type="text" name="title" required="required" value="{$thing->title ?? ''}" required="required" lay-verify="required" class="layui-input">
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">内容</label>
+        <div class="layui-input-block">
+            <div id="editor" class="wang-editor" data-content="{$thing->content ?? ''}"></div>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">类型</label>
+        <div class="layui-input-block">
+            {foreach $type as $k => $v}
+            {if $mode == 'edit'}
+            {if $k == $thing->type}
+            <input type="radio" name="type" value="{$k}" title="{$v}" checked="checked">
+            {/if}
+            {else /}
+            {if $k == 0}
+            <input type="radio" name="type" value="{$k}" title="{$v}" checked="checked">
+            {/if}
+            {/if}
+            {/foreach}
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">状态</label>
+        <div class="layui-input-block">
+            {foreach $status as $k => $v}
+            {if $mode == 'edit'}
+            <input type="radio" name="status" value="{$k}" title="{$v}" {if $k == $thing->status}checked="checked"{/if}>
+            {else /}
+            <input type="radio" name="status" value="{$k}" title="{$v}" {if $k == 1}checked="checked"{/if}>
+            {/if}
+            {/foreach}
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <div class="layui-input-block">
+            <button class="layui-btn" lay-submit="submit" lay-filter="form">立即提交</button>
+        </div>
+    </div>
+
+</form>
+{/block}
+
+{block name='script'}
+<script src="{$plugin_url}/wang-editor/release/wangEditor.js?version={$version}"></script>
+<script src="{$ctrl_res_url}/js/thing.js?version={$version}"></script>
+{/block}

@@ -1,0 +1,2572 @@
+---------------------------------------------------------------
+[2019-09-16T11:47:00+08:00] 127.0.0.1 GET lucky_admin.com/
+[运行时间：0.948830s] [吞吐率：1.05req/s] [内存消耗：1,832.52kb] [文件加载：116]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-09-16T11:47:00+08:00] 127.0.0.1 GET lucky_admin.com/admin/index/indexView
+[运行时间：0.105085s] [吞吐率：9.52req/s] [内存消耗：2,031.87kb] [文件加载：125]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-09-16T11:47:00+08:00] 127.0.0.1 GET lucky_admin.com/admin/login/loginView
+[运行时间：0.210231s] [吞吐率：4.76req/s] [内存消耗：3,310.19kb] [文件加载：139]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\lucky\application\admin\view\login\login.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013141s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.003689s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `route` = '/admin/login/loginView' LIMIT 1 [ RunTime:0.005592s ]
+---------------------------------------------------------------
+[2019-09-16T11:47:02+08:00] 127.0.0.1 POST lucky_admin.com/admin/login/login
+[运行时间：0.329391s] [吞吐率：3.04req/s] [内存消耗：3,607.39kb] [文件加载：148]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'content-length' => '30',
+  'accept' => '*/*',
+  'origin' => 'http://lucky_admin.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://lucky_admin.com/admin/login/loginView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010350s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_administrator` [ RunTime:0.001779s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_administrator` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.005300s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_role` [ RunTime:0.003481s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_role` WHERE  `id` = 1 [ RunTime:0.006047s ]
+[ sql ] [ SQL ] UPDATE `tk_administrator`  SET `last_ip` = '127.0.0.1' , `last_time` = '2019-09-16 11:47:02' , `number` = 40  WHERE  `id` = 1 [ RunTime:0.034918s ]
+---------------------------------------------------------------
+[2019-09-16T11:47:02+08:00] 127.0.0.1 GET lucky_admin.com/admin/index/indexView
+[运行时间：0.102397s] [吞吐率：9.77req/s] [内存消耗：3,807.45kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://lucky_admin.com/admin/login/loginView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\lucky\application\admin\view\index\index.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011549s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.001736s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.000868s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `route` = '/admin/index/indexView' LIMIT 1 [ RunTime:0.000337s ]
+---------------------------------------------------------------
+[2019-09-16T11:49:14+08:00] 127.0.0.1 GET lucky_admin.com/admin/index/indexView
+[运行时间：0.062137s] [吞吐率：16.09req/s] [内存消耗：3,919.72kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://lucky_admin.com/admin/login/loginView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\lucky\application\admin\view\index\index.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000757s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.001847s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.000695s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `route` = '/admin/index/indexView' LIMIT 1 [ RunTime:0.000328s ]
+---------------------------------------------------------------
+[2019-09-16T11:49:16+08:00] 127.0.0.1 GET lucky_admin.com/admin/index/indexView
+[运行时间：0.057464s] [吞吐率：17.40req/s] [内存消耗：3,923.72kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://lucky_admin.com/admin/login/loginView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\lucky\application\admin\view\index\index.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010133s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.002198s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.000776s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `route` = '/admin/index/indexView' LIMIT 1 [ RunTime:0.000330s ]
+---------------------------------------------------------------
+[2019-09-16T11:53:26+08:00] 127.0.0.1 GET lucky_admin.com/admin/index/indexView
+[运行时间：0.077871s] [吞吐率：12.84req/s] [内存消耗：3,923.72kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://lucky_admin.com/admin/login/loginView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\lucky\application\admin\view\index\index.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011240s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.002468s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.001150s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `route` = '/admin/index/indexView' LIMIT 1 [ RunTime:0.000375s ]
+---------------------------------------------------------------
+[2019-09-16T11:53:37+08:00] 127.0.0.1 GET lucky_admin.com/admin/index/indexView
+[运行时间：0.065619s] [吞吐率：15.24req/s] [内存消耗：3,923.72kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://lucky_admin.com/admin/login/loginView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\lucky\application\admin\view\index\index.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010194s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.001455s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.000667s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `route` = '/admin/index/indexView' LIMIT 1 [ RunTime:0.000328s ]
+---------------------------------------------------------------
+[2019-09-16T11:53:40+08:00] 127.0.0.1 GET lucky_admin.com/admin/index/indexView
+[运行时间：0.052084s] [吞吐率：19.20req/s] [内存消耗：3,923.72kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://lucky_admin.com/admin/login/loginView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\lucky\application\admin\view\index\index.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000797s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.002192s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.001481s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `route` = '/admin/index/indexView' LIMIT 1 [ RunTime:0.000544s ]
+---------------------------------------------------------------
+[2019-09-16T11:54:59+08:00] 127.0.0.1 GET lucky_admin.com/admin/index/indexView
+[运行时间：0.051272s] [吞吐率：19.50req/s] [内存消耗：3,930.39kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://lucky_admin.com/admin/login/loginView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\lucky\application\admin\view\index\index.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000684s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.001706s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.000907s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `route` = '/admin/index/indexView' LIMIT 1 [ RunTime:0.000451s ]
+---------------------------------------------------------------
+[2019-09-16T11:55:00+08:00] 127.0.0.1 GET lucky_admin.com/admin/customer_service/listView
+[运行时间：0.142216s] [吞吐率：7.03req/s] [内存消耗：4,108.33kb] [文件加载：147]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://lucky_admin.com/admin/index/indexView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\lucky\application\admin\view\customer_service\list.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001016s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.002317s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.000697s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `route` = '/admin/customer_service/listView' LIMIT 1 [ RunTime:0.000365s ]
+---------------------------------------------------------------
+[2019-09-16T11:55:01+08:00] 127.0.0.1 POST lucky_admin.com/admin/customer_service/list
+[运行时间：0.117543s] [吞吐率：8.51req/s] [内存消耗：3,857.75kb] [文件加载：148]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'content-length' => '14',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://lucky_admin.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://lucky_admin.com/admin/customer_service/listView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '4',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000832s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.002105s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.001578s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_community` [ RunTime:0.002503s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tk_community` [ RunTime:0.008005s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_community` ORDER BY `id` ASC LIMIT 0,4 [ RunTime:0.000589s ]
+---------------------------------------------------------------
+[2019-09-16T11:55:36+08:00] 127.0.0.1 GET lucky_admin.com/admin/customer_service/listView
+[运行时间：0.051522s] [吞吐率：19.41req/s] [内存消耗：3,941.23kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://lucky_admin.com/admin/index/indexView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\lucky\application\admin\view\customer_service\list.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000980s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.001799s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.000802s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `route` = '/admin/customer_service/listView' LIMIT 1 [ RunTime:0.000335s ]
+---------------------------------------------------------------
+[2019-09-16T11:55:36+08:00] 127.0.0.1 POST lucky_admin.com/admin/customer_service/list
+[运行时间：0.082166s] [吞吐率：12.17req/s] [内存消耗：3,857.88kb] [文件加载：148]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'content-length' => '14',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://lucky_admin.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://lucky_admin.com/admin/customer_service/listView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '4',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011127s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.003221s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.001954s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_community` [ RunTime:0.002031s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tk_community` [ RunTime:0.000549s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_community` ORDER BY `id` ASC LIMIT 0,4 [ RunTime:0.000477s ]
+---------------------------------------------------------------
+[2019-09-16T11:56:04+08:00] 127.0.0.1 GET lucky_admin.com/admin/customer_service/listView
+[运行时间：0.066283s] [吞吐率：15.09req/s] [内存消耗：3,941.55kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://lucky_admin.com/admin/index/indexView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\lucky\application\admin\view\customer_service\list.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001455s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.002005s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.000629s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `route` = '/admin/customer_service/listView' LIMIT 1 [ RunTime:0.000394s ]
+---------------------------------------------------------------
+[2019-09-16T11:56:04+08:00] 127.0.0.1 POST lucky_admin.com/admin/customer_service/list
+[运行时间：0.075655s] [吞吐率：13.22req/s] [内存消耗：3,858.27kb] [文件加载：148]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'content-length' => '14',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://lucky_admin.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://lucky_admin.com/admin/customer_service/listView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '4',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000677s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.001483s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.000706s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_community` [ RunTime:0.001376s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tk_community` [ RunTime:0.000279s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_community` ORDER BY `id` ASC LIMIT 0,4 [ RunTime:0.000215s ]
+---------------------------------------------------------------
+[2019-09-16T11:57:20+08:00] 127.0.0.1 GET lucky_admin.com/admin/customer_service/listView
+[运行时间：0.074575s] [吞吐率：13.41req/s] [内存消耗：3,941.55kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://lucky_admin.com/admin/index/indexView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\lucky\application\admin\view\customer_service\list.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010975s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.001992s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.000871s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `route` = '/admin/customer_service/listView' LIMIT 1 [ RunTime:0.000692s ]
+---------------------------------------------------------------
+[2019-09-16T11:57:20+08:00] 127.0.0.1 POST lucky_admin.com/admin/customer_service/list
+[运行时间：0.081368s] [吞吐率：12.29req/s] [内存消耗：3,844.73kb] [文件加载：147]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'content-length' => '14',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://lucky_admin.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://lucky_admin.com/admin/customer_service/listView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '4',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000588s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.001239s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.000514s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_customer_service` [ RunTime:0.003500s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tk_customer_service` [ RunTime:0.000813s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_customer_service` ORDER BY `id` ASC LIMIT 0,4 [ RunTime:0.000318s ]
+---------------------------------------------------------------
+[2019-09-16T11:58:40+08:00] 127.0.0.1 GET lucky_admin.com/admin/customer_service/listView
+[运行时间：0.066094s] [吞吐率：15.13req/s] [内存消耗：3,941.55kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://lucky_admin.com/admin/index/indexView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\lucky\application\admin\view\customer_service\list.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000787s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.001479s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.000621s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `route` = '/admin/customer_service/listView' LIMIT 1 [ RunTime:0.000371s ]
+---------------------------------------------------------------
+[2019-09-16T11:58:40+08:00] 127.0.0.1 POST lucky_admin.com/admin/customer_service/list
+[运行时间：0.071946s] [吞吐率：13.90req/s] [内存消耗：3,844.73kb] [文件加载：147]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'content-length' => '15',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://lucky_admin.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://lucky_admin.com/admin/customer_service/listView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000618s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.001230s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.000737s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_customer_service` [ RunTime:0.002268s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tk_customer_service` [ RunTime:0.000707s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_customer_service` ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.000568s ]
+---------------------------------------------------------------
+[2019-09-16T11:59:03+08:00] 127.0.0.1 GET lucky_admin.com/admin/customer_service/listView
+[运行时间：0.061315s] [吞吐率：16.31req/s] [内存消耗：3,941.55kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://lucky_admin.com/admin/index/indexView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\lucky\application\admin\view\customer_service\list.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010449s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.001218s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.000548s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `route` = '/admin/customer_service/listView' LIMIT 1 [ RunTime:0.000305s ]
+---------------------------------------------------------------
+[2019-09-16T11:59:04+08:00] 127.0.0.1 POST lucky_admin.com/admin/customer_service/list
+[运行时间：0.069128s] [吞吐率：14.47req/s] [内存消耗：3,844.77kb] [文件加载：147]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'content-length' => '15',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://lucky_admin.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://lucky_admin.com/admin/customer_service/listView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000914s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.001770s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.000580s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_customer_service` [ RunTime:0.001187s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tk_customer_service` [ RunTime:0.000354s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_customer_service` ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.000228s ]
+---------------------------------------------------------------
+[2019-09-16T11:59:37+08:00] 127.0.0.1 GET lucky_admin.com/admin/customer_service/listView
+[运行时间：0.077089s] [吞吐率：12.97req/s] [内存消耗：3,941.55kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://lucky_admin.com/admin/index/indexView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\lucky\application\admin\view\customer_service\list.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010430s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.001716s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.000757s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `route` = '/admin/customer_service/listView' LIMIT 1 [ RunTime:0.000344s ]
+---------------------------------------------------------------
+[2019-09-16T11:59:37+08:00] 127.0.0.1 POST lucky_admin.com/admin/customer_service/list
+[运行时间：0.077943s] [吞吐率：12.83req/s] [内存消耗：3,844.96kb] [文件加载：147]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'content-length' => '15',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://lucky_admin.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://lucky_admin.com/admin/customer_service/listView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000940s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.001265s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.000497s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_customer_service` [ RunTime:0.001228s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tk_customer_service` [ RunTime:0.000323s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_customer_service` ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.000180s ]
+---------------------------------------------------------------
+[2019-09-16T11:59:37+08:00] 127.0.0.1 GET lucky_admin.com/admin/customer_service/undefined
+[运行时间：0.125392s] [吞吐率：7.97req/s] [内存消耗：3,833.62kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lucky_admin.com/admin/customer_service/listView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000620s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.001192s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.000563s ]
+---------------------------------------------------------------
+[2019-09-16T12:00:14+08:00] 127.0.0.1 GET lucky_admin.com/admin/customer_service/listView
+[运行时间：0.091203s] [吞吐率：10.96req/s] [内存消耗：4,108.87kb] [文件加载：147]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://lucky_admin.com/admin/index/indexView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\lucky\application\admin\view\customer_service\list.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011222s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.001426s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.000553s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `route` = '/admin/customer_service/listView' LIMIT 1 [ RunTime:0.000304s ]
+---------------------------------------------------------------
+[2019-09-16T12:00:15+08:00] 127.0.0.1 POST lucky_admin.com/admin/customer_service/list
+[运行时间：0.100225s] [吞吐率：9.98req/s] [内存消耗：3,844.96kb] [文件加载：147]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'content-length' => '15',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://lucky_admin.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://lucky_admin.com/admin/customer_service/listView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000688s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.001349s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.000516s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_customer_service` [ RunTime:0.001985s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tk_customer_service` [ RunTime:0.000284s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_customer_service` ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.000175s ]
+---------------------------------------------------------------
+[2019-09-16T12:00:15+08:00] 127.0.0.1 GET lucky_admin.com/admin/customer_service/undefined
+[运行时间：0.058625s] [吞吐率：17.06req/s] [内存消耗：3,833.62kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lucky_admin.com/admin/customer_service/listView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000586s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.001235s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.000484s ]
+---------------------------------------------------------------
+[2019-09-16T12:00:28+08:00] 127.0.0.1 GET lucky_admin.com/admin/customer_service/listView
+[运行时间：0.072853s] [吞吐率：13.73req/s] [内存消耗：3,941.55kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://lucky_admin.com/admin/index/indexView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\lucky\application\admin\view\customer_service\list.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011407s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.001371s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.000614s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `route` = '/admin/customer_service/listView' LIMIT 1 [ RunTime:0.000376s ]
+---------------------------------------------------------------
+[2019-09-16T12:00:28+08:00] 127.0.0.1 POST lucky_admin.com/admin/customer_service/list
+[运行时间：0.070606s] [吞吐率：14.16req/s] [内存消耗：3,844.96kb] [文件加载：147]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'content-length' => '15',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://lucky_admin.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://lucky_admin.com/admin/customer_service/listView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010995s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.001814s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.000958s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_customer_service` [ RunTime:0.001610s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tk_customer_service` [ RunTime:0.000496s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_customer_service` ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.000345s ]
+---------------------------------------------------------------
+[2019-09-16T12:00:28+08:00] 127.0.0.1 GET lucky_admin.com/admin/customer_service/undefined
+[运行时间：0.068264s] [吞吐率：14.65req/s] [内存消耗：3,833.62kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lucky_admin.com/admin/customer_service/listView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000830s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.001999s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.001199s ]
+---------------------------------------------------------------
+[2019-09-16T12:00:40+08:00] 127.0.0.1 GET lucky_admin.com/admin/customer_service/listView
+[运行时间：0.091639s] [吞吐率：10.91req/s] [内存消耗：4,108.87kb] [文件加载：147]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://lucky_admin.com/admin/index/indexView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\lucky\application\admin\view\customer_service\list.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010670s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.001615s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.000577s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `route` = '/admin/customer_service/listView' LIMIT 1 [ RunTime:0.000420s ]
+---------------------------------------------------------------
+[2019-09-16T12:00:40+08:00] 127.0.0.1 POST lucky_admin.com/admin/customer_service/list
+[运行时间：0.074230s] [吞吐率：13.47req/s] [内存消耗：3,844.96kb] [文件加载：147]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'content-length' => '15',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://lucky_admin.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://lucky_admin.com/admin/customer_service/listView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000747s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.001440s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.000483s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_customer_service` [ RunTime:0.001969s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tk_customer_service` [ RunTime:0.000460s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_customer_service` ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.000275s ]
+---------------------------------------------------------------
+[2019-09-16T12:00:40+08:00] 127.0.0.1 GET lucky_admin.com/admin/customer_service/undefined
+[运行时间：0.092295s] [吞吐率：10.83req/s] [内存消耗：3,833.62kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lucky_admin.com/admin/customer_service/listView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011147s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.005451s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.002644s ]
+---------------------------------------------------------------
+[2019-09-16T12:00:51+08:00] 127.0.0.1 GET lucky_admin.com/admin/customer_service/listView
+[运行时间：0.091775s] [吞吐率：10.90req/s] [内存消耗：4,108.87kb] [文件加载：147]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://lucky_admin.com/admin/index/indexView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\lucky\application\admin\view\customer_service\list.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010055s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.001223s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.000672s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `route` = '/admin/customer_service/listView' LIMIT 1 [ RunTime:0.000320s ]
+---------------------------------------------------------------
+[2019-09-16T12:00:51+08:00] 127.0.0.1 POST lucky_admin.com/admin/customer_service/list
+[运行时间：0.090419s] [吞吐率：11.06req/s] [内存消耗：3,844.96kb] [文件加载：147]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'content-length' => '15',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://lucky_admin.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://lucky_admin.com/admin/customer_service/listView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011465s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.001360s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.001605s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_customer_service` [ RunTime:0.001947s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tk_customer_service` [ RunTime:0.000374s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_customer_service` ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.000325s ]
+---------------------------------------------------------------
+[2019-09-16T12:00:52+08:00] 127.0.0.1 GET lucky_admin.com/admin/customer_service/undefined
+[运行时间：0.091651s] [吞吐率：10.91req/s] [内存消耗：3,833.62kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lucky_admin.com/admin/customer_service/listView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011123s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.006717s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.002785s ]
+---------------------------------------------------------------
+[2019-09-16T12:01:01+08:00] 127.0.0.1 GET lucky_admin.com/admin/customer_service/editView?mode=edit&id=1
+[运行时间：0.110496s] [吞吐率：9.05req/s] [内存消耗：4,321.97kb] [文件加载：151]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://lucky_admin.com/admin/customer_service/listView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'mode' => 'edit',
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\lucky\application\admin\view\customer_service\thing.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+  18 => 'mode',
+  19 => 'thing',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010260s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.001458s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.000591s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_customer_service` [ RunTime:0.001278s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_customer_service` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000370s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `route` = '/admin/customer_service/editView' LIMIT 1 [ RunTime:0.000363s ]
+[ error ] [0]类的属性不存在:app\admin\model\CustomerServiceModel->type[D:\work\code\lucky\thinkphp\library\think\model\concern\Attribute.php:559]
+---------------------------------------------------------------
+[2019-09-16T12:01:03+08:00] 127.0.0.1 POST lucky_admin.com/admin/customer_service/list
+[运行时间：0.061117s] [吞吐率：16.36req/s] [内存消耗：3,844.56kb] [文件加载：147]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'content-length' => '15',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://lucky_admin.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://lucky_admin.com/admin/customer_service/listView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010541s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.001384s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.000586s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_customer_service` [ RunTime:0.001079s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tk_customer_service` [ RunTime:0.000340s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_customer_service` ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.000239s ]
+---------------------------------------------------------------
+[2019-09-16T12:01:03+08:00] 127.0.0.1 GET lucky_admin.com/admin/customer_service/undefined
+[运行时间：0.068320s] [吞吐率：14.64req/s] [内存消耗：3,833.16kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lucky_admin.com/admin/customer_service/listView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011871s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.003748s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.001347s ]
+---------------------------------------------------------------
+[2019-09-16T14:01:37+08:00] 127.0.0.1 GET lucky_admin.com/admin/customer_service/listView
+[运行时间：0.883377s] [吞吐率：1.13req/s] [内存消耗：3,941.23kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://lucky_admin.com/admin/index/indexView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\lucky\application\admin\view\customer_service\list.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001304s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.002267s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.001202s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `route` = '/admin/customer_service/listView' LIMIT 1 [ RunTime:0.000820s ]
+---------------------------------------------------------------
+[2019-09-16T14:01:37+08:00] 127.0.0.1 POST lucky_admin.com/admin/customer_service/list
+[运行时间：0.113880s] [吞吐率：8.78req/s] [内存消耗：3,844.56kb] [文件加载：147]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'content-length' => '15',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://lucky_admin.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://lucky_admin.com/admin/customer_service/listView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011118s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.001293s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.000575s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_customer_service` [ RunTime:0.001748s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tk_customer_service` [ RunTime:0.000654s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_customer_service` ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.000376s ]
+---------------------------------------------------------------
+[2019-09-16T14:01:37+08:00] 127.0.0.1 GET lucky_admin.com/admin/customer_service/undefined
+[运行时间：0.156855s] [吞吐率：6.38req/s] [内存消耗：3,833.16kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lucky_admin.com/admin/customer_service/listView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000756s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.002052s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.000944s ]
+---------------------------------------------------------------
+[2019-09-16T14:01:39+08:00] 127.0.0.1 GET lucky_admin.com/admin/customer_service/listView
+[运行时间：0.051219s] [吞吐率：19.52req/s] [内存消耗：3,941.23kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://lucky_admin.com/admin/index/indexView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\lucky\application\admin\view\customer_service\list.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000749s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.001271s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.000583s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `route` = '/admin/customer_service/listView' LIMIT 1 [ RunTime:0.000744s ]
+---------------------------------------------------------------
+[2019-09-16T14:01:39+08:00] 127.0.0.1 POST lucky_admin.com/admin/customer_service/list
+[运行时间：0.084209s] [吞吐率：11.88req/s] [内存消耗：3,844.56kb] [文件加载：147]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'content-length' => '15',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://lucky_admin.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://lucky_admin.com/admin/customer_service/listView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000769s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.001872s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.000701s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_customer_service` [ RunTime:0.001400s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tk_customer_service` [ RunTime:0.000414s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_customer_service` ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.000278s ]
+---------------------------------------------------------------
+[2019-09-16T14:01:40+08:00] 127.0.0.1 GET lucky_admin.com/admin/customer_service/undefined
+[运行时间：0.052385s] [吞吐率：19.09req/s] [内存消耗：3,833.16kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lucky_admin.com/admin/customer_service/listView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000570s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.001219s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.000528s ]
+---------------------------------------------------------------
+[2019-09-16T14:01:40+08:00] 127.0.0.1 GET lucky_admin.com/admin/customer_service/editView?mode=edit&id=1
+[运行时间：0.160002s] [吞吐率：6.25req/s] [内存消耗：4,107.48kb] [文件加载：148]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://lucky_admin.com/admin/customer_service/listView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'mode' => 'edit',
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\lucky\application\admin\view\customer_service\thing.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+  18 => 'mode',
+  19 => 'thing',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000676s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.001372s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.000626s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_customer_service` [ RunTime:0.003572s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_customer_service` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000932s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `route` = '/admin/customer_service/editView' LIMIT 1 [ RunTime:0.000429s ]
+---------------------------------------------------------------
+[2019-09-16T14:01:42+08:00] 127.0.0.1 POST lucky_admin.com/admin/customer_service/list
+[运行时间：0.072730s] [吞吐率：13.75req/s] [内存消耗：3,844.56kb] [文件加载：147]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'content-length' => '15',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://lucky_admin.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://lucky_admin.com/admin/customer_service/listView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009947s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.001363s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.000798s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_customer_service` [ RunTime:0.001218s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tk_customer_service` [ RunTime:0.000346s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_customer_service` ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.000254s ]
+---------------------------------------------------------------
+[2019-09-16T14:01:42+08:00] 127.0.0.1 GET lucky_admin.com/admin/customer_service/undefined
+[运行时间：0.060692s] [吞吐率：16.48req/s] [内存消耗：3,833.16kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lucky_admin.com/admin/customer_service/listView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011010s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.001690s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.000568s ]
+---------------------------------------------------------------
+[2019-09-16T14:01:48+08:00] 127.0.0.1 GET lucky_admin.com/admin/customer_service/editView?mode=edit&id=1
+[运行时间：0.073004s] [吞吐率：13.70req/s] [内存消耗：3,962.88kb] [文件加载：146]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://lucky_admin.com/admin/customer_service/listView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'mode' => 'edit',
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\lucky\application\admin\view\customer_service\thing.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+  18 => 'mode',
+  19 => 'thing',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010360s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.002783s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.000950s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_customer_service` [ RunTime:0.001452s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_customer_service` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000409s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `route` = '/admin/customer_service/editView' LIMIT 1 [ RunTime:0.000337s ]
+---------------------------------------------------------------
+[2019-09-16T14:02:13+08:00] 127.0.0.1 GET lucky_admin.com/admin/customer_service/listView
+[运行时间：0.061869s] [吞吐率：16.16req/s] [内存消耗：3,941.55kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://lucky_admin.com/admin/index/indexView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\lucky\application\admin\view\customer_service\list.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011042s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.001301s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.000639s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `route` = '/admin/customer_service/listView' LIMIT 1 [ RunTime:0.000480s ]
+---------------------------------------------------------------
+[2019-09-16T14:02:13+08:00] 127.0.0.1 POST lucky_admin.com/admin/customer_service/list
+[运行时间：0.080909s] [吞吐率：12.36req/s] [内存消耗：3,844.96kb] [文件加载：147]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'content-length' => '15',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://lucky_admin.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://lucky_admin.com/admin/customer_service/listView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001438s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.002071s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.000652s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_customer_service` [ RunTime:0.001268s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tk_customer_service` [ RunTime:0.000183s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_customer_service` ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.000174s ]
+---------------------------------------------------------------
+[2019-09-16T14:02:13+08:00] 127.0.0.1 GET lucky_admin.com/admin/customer_service/undefined
+[运行时间：0.067548s] [吞吐率：14.80req/s] [内存消耗：3,833.62kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lucky_admin.com/admin/customer_service/listView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000756s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.001349s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.000600s ]
+---------------------------------------------------------------
+[2019-09-16T14:02:14+08:00] 127.0.0.1 GET lucky_admin.com/admin/customer_service/editView?mode=edit&id=1
+[运行时间：0.067060s] [吞吐率：14.91req/s] [内存消耗：3,963.02kb] [文件加载：146]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://lucky_admin.com/admin/customer_service/listView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'mode' => 'edit',
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\lucky\application\admin\view\customer_service\thing.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+  18 => 'mode',
+  19 => 'thing',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000952s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.003619s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.001386s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_customer_service` [ RunTime:0.001903s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_customer_service` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000512s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `route` = '/admin/customer_service/editView' LIMIT 1 [ RunTime:0.000577s ]
+---------------------------------------------------------------
+[2019-09-16T14:02:17+08:00] 127.0.0.1 GET lucky_admin.com/admin/customer_service/listView
+[运行时间：0.072469s] [吞吐率：13.80req/s] [内存消耗：3,941.23kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://lucky_admin.com/admin/index/indexView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\lucky\application\admin\view\customer_service\list.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010376s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.001475s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.000591s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `route` = '/admin/customer_service/listView' LIMIT 1 [ RunTime:0.000380s ]
+---------------------------------------------------------------
+[2019-09-16T14:02:17+08:00] 127.0.0.1 POST lucky_admin.com/admin/customer_service/list
+[运行时间：0.076809s] [吞吐率：13.02req/s] [内存消耗：3,844.56kb] [文件加载：147]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'content-length' => '15',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://lucky_admin.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://lucky_admin.com/admin/customer_service/listView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011025s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.001457s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.000702s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_customer_service` [ RunTime:0.001439s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tk_customer_service` [ RunTime:0.000350s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_customer_service` ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.000332s ]
+---------------------------------------------------------------
+[2019-09-16T14:02:17+08:00] 127.0.0.1 GET lucky_admin.com/admin/customer_service/undefined
+[运行时间：0.063636s] [吞吐率：15.71req/s] [内存消耗：3,833.16kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lucky_admin.com/admin/customer_service/listView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010871s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.001414s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.000563s ]
+---------------------------------------------------------------
+[2019-09-16T14:02:17+08:00] 127.0.0.1 GET lucky_admin.com/admin/customer_service/editView?mode=edit&id=1
+[运行时间：0.067713s] [吞吐率：14.77req/s] [内存消耗：3,962.88kb] [文件加载：146]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://lucky_admin.com/admin/customer_service/listView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'mode' => 'edit',
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\lucky\application\admin\view\customer_service\thing.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+  18 => 'mode',
+  19 => 'thing',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010904s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.001778s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.001135s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_customer_service` [ RunTime:0.001340s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_customer_service` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000324s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `route` = '/admin/customer_service/editView' LIMIT 1 [ RunTime:0.000359s ]
+---------------------------------------------------------------
+[2019-09-16T14:02:34+08:00] 127.0.0.1 POST lucky_admin.com/admin/customer_service/edit
+[运行时间：0.212101s] [吞吐率：4.71req/s] [内存消耗：3,919.39kb] [文件加载：146]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'content-length' => '167',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'origin' => 'http://lucky_admin.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://lucky_admin.com/admin/customer_service/editView?mode=edit&id=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'name' => '官方客服',
+  'file' => '',
+  'id' => '1',
+  'image' => 'http://combi.oss-ap-southeast-1.aliyuncs.com/lucky/20190916/877c6899f96c92afaa1cef398187dc1f.png',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009853s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.001649s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.001218s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_customer_service` [ RunTime:0.001551s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_customer_service` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000341s ]
+[ sql ] [ SQL ] UPDATE `tk_customer_service`  SET `name` = '官方客服' , `image` = 'http://combi.oss-ap-southeast-1.aliyuncs.com/lucky/20190916/877c6899f96c92afaa1cef398187dc1f.png'  WHERE  `id` = 1 [ RunTime:0.097583s ]
+---------------------------------------------------------------
+[2019-09-16T14:02:51+08:00] 127.0.0.1 POST lucky_admin.com/admin/customer_service/list
+[运行时间：0.073867s] [吞吐率：13.54req/s] [内存消耗：3,844.66kb] [文件加载：147]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'content-length' => '15',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://lucky_admin.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://lucky_admin.com/admin/customer_service/listView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011827s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.004185s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.001653s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_customer_service` [ RunTime:0.002140s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tk_customer_service` [ RunTime:0.000719s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_customer_service` ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.000581s ]
+---------------------------------------------------------------
+[2019-09-16T14:02:51+08:00] 127.0.0.1 GET lucky_admin.com/admin/customer_service/undefined
+[运行时间：0.051250s] [吞吐率：19.51req/s] [内存消耗：3,833.16kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lucky_admin.com/admin/customer_service/listView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000677s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.001299s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.000590s ]
+---------------------------------------------------------------
+[2019-09-16T14:02:53+08:00] 127.0.0.1 GET lucky_admin.com/admin/customer_service/listView
+[运行时间：0.062089s] [吞吐率：16.11req/s] [内存消耗：3,941.23kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://lucky_admin.com/admin/index/indexView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\lucky\application\admin\view\customer_service\list.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010075s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.001389s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.000612s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `route` = '/admin/customer_service/listView' LIMIT 1 [ RunTime:0.000384s ]
+---------------------------------------------------------------
+[2019-09-16T14:02:53+08:00] 127.0.0.1 POST lucky_admin.com/admin/customer_service/list
+[运行时间：0.066359s] [吞吐率：15.07req/s] [内存消耗：3,844.66kb] [文件加载：147]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'content-length' => '15',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://lucky_admin.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://lucky_admin.com/admin/customer_service/listView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000660s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.001354s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.000627s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_customer_service` [ RunTime:0.001517s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tk_customer_service` [ RunTime:0.000463s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_customer_service` ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.000411s ]
+---------------------------------------------------------------
+[2019-09-16T14:02:53+08:00] 127.0.0.1 GET lucky_admin.com/admin/customer_service/undefined
+[运行时间：0.048586s] [吞吐率：20.58req/s] [内存消耗：3,833.16kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lucky_admin.com/admin/customer_service/listView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000778s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.001344s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.000636s ]
+---------------------------------------------------------------
+[2019-09-16T14:03:53+08:00] 127.0.0.1 GET lucky_admin.com/admin/customer_service/listView
+[运行时间：0.059656s] [吞吐率：16.76req/s] [内存消耗：3,941.23kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://lucky_admin.com/admin/index/indexView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\lucky\application\admin\view\customer_service\list.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011571s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.001403s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.000576s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `route` = '/admin/customer_service/listView' LIMIT 1 [ RunTime:0.000335s ]
+---------------------------------------------------------------
+[2019-09-16T14:03:54+08:00] 127.0.0.1 POST lucky_admin.com/admin/customer_service/list
+[运行时间：0.070910s] [吞吐率：14.10req/s] [内存消耗：3,844.96kb] [文件加载：147]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'content-length' => '15',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://lucky_admin.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://lucky_admin.com/admin/customer_service/listView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000917s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.002161s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.000943s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_customer_service` [ RunTime:0.001328s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tk_customer_service` [ RunTime:0.000256s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_customer_service` ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.000313s ]
+---------------------------------------------------------------
+[2019-09-16T14:03:57+08:00] 127.0.0.1 GET lucky_admin.com/admin/customer_service/editView?mode=edit&id=1
+[运行时间：0.079027s] [吞吐率：12.65req/s] [内存消耗：4,108.20kb] [文件加载：148]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://lucky_admin.com/admin/customer_service/listView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'mode' => 'edit',
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\lucky\application\admin\view\customer_service\thing.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+  18 => 'mode',
+  19 => 'thing',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011576s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.001570s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.000617s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_customer_service` [ RunTime:0.001078s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_customer_service` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000304s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `route` = '/admin/customer_service/editView' LIMIT 1 [ RunTime:0.000308s ]
+---------------------------------------------------------------
+[2019-09-16T14:03:59+08:00] 127.0.0.1 POST lucky_admin.com/admin/customer_service/list
+[运行时间：0.060864s] [吞吐率：16.43req/s] [内存消耗：3,844.96kb] [文件加载：147]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'content-length' => '15',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://lucky_admin.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://lucky_admin.com/admin/customer_service/listView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011318s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.001661s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.000773s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_customer_service` [ RunTime:0.001118s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tk_customer_service` [ RunTime:0.000264s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_customer_service` ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.000276s ]
+---------------------------------------------------------------
+[2019-09-16T14:04:41+08:00] 127.0.0.1 GET lucky_admin.com/admin/customer_service/listView
+[运行时间：0.071951s] [吞吐率：13.90req/s] [内存消耗：3,941.23kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://lucky_admin.com/admin/index/indexView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\lucky\application\admin\view\customer_service\list.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010626s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.001980s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.000843s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `route` = '/admin/customer_service/listView' LIMIT 1 [ RunTime:0.000417s ]
+---------------------------------------------------------------
+[2019-09-16T14:04:41+08:00] 127.0.0.1 POST lucky_admin.com/admin/customer_service/list
+[运行时间：0.069226s] [吞吐率：14.45req/s] [内存消耗：3,844.96kb] [文件加载：147]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'content-length' => '15',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://lucky_admin.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://lucky_admin.com/admin/customer_service/listView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=925bsr5cpfd79q2p84j58j2k5a',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000819s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.001355s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.000644s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_customer_service` [ RunTime:0.001332s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tk_customer_service` [ RunTime:0.000329s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_customer_service` ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.000342s ]

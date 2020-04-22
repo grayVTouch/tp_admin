@@ -1,0 +1,85 @@
+{extend name='public/base' /}
+
+{block name='link'}
+<link rel="stylesheet" href="{$public_url}/css/list.css?version={$version}">
+{/block}
+
+{block name='body'}
+<!-- 标题 -->
+<div class="filter-option">
+    <form class="layui-form layui-form-pane" id="search">
+
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label">ID</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="id" class="layui-input">
+                </div>
+            </div>
+
+            <div class="layui-inline">
+                <button class="layui-btn" type="submit" lay-submit lay-filter="search">查询</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+<div class="operation">
+    <!--<button class="layui-btn" data-link="{$ctrl_url}/addView?mode=add" id="add">添加</button>-->
+    <!--<button class="layui-btn" id="delete-selected">删除选中项</button>-->
+</div>
+
+<!-- 列表 -->
+<div class="list">
+    <table class="layui-hide" id="list" lay-filter="table"></table>
+</div>
+{/block}
+
+{block name='script'}
+<script type="text/html" id="status">
+    <input type="checkbox" name="status" value="{{d.id}}" lay-skin="switch" lay-text="开启|关闭" lay-filter="status" {{ d.status == 1 ? 'checked' : '' }}>
+</script>
+
+<script type="text/html" id="can_show">
+    <input type="checkbox" name="can_show" value="{{d.id}}" lay-skin="switch" lay-text="开启|关闭" lay-filter="can_show" {{ d.can_show == 1 ? 'checked' : '' }}>
+</script>
+
+<script type="text/html" id="can_transfer">
+    <input type="checkbox" name="can_transfer" value="{{d.id}}" lay-skin="switch" lay-text="开启|关闭" lay-filter="can_transfer" {{ d.can_transfer == 1 ? 'checked' : '' }}>
+</script>
+
+<script type="text/html" id="can_transfer_out">
+    <input type="checkbox" name="can_transfer_out" value="{{d.id}}" lay-skin="switch" lay-text="开启|关闭" lay-filter="can_transfer_out" {{ d.can_transfer_out == 1 ? 'checked' : '' }}>
+</script>
+
+<script type="text/html" id="can_trend">
+    <input type="checkbox" name="can_trend" value="{{d.id}}" lay-skin="switch" lay-text="开启|关闭" lay-filter="can_trend" {{ d.can_trend == 1 ? 'checked' : '' }}>
+</script>
+
+<script type="text/html" id="is_virtual">
+    <input type="checkbox" name="is_virtual" value="{{d.id}}" lay-skin="switch" lay-text="开启|关闭" lay-filter="is_virtual" {{ d.is_virtual == 1 ? 'checked' : '' }}>
+</script>
+
+<script type="text/html" id="is_real">
+    <input type="checkbox" name="is_real" value="{{d.id}}" lay-skin="switch" lay-text="开启|关闭" lay-filter="is_real" {{ d.is_real == 1 ? 'checked' : '' }}>
+</script>
+
+<script type="text/html" id="is_reward">
+    <input type="checkbox" name="is_reward" value="{{d.id}}" lay-skin="switch" lay-text="开启|关闭" lay-filter="is_reward" {{ d.is_reward == 1 ? 'checked' : '' }}>
+</script>
+
+<script type="text/html" id="red_pack">
+    <input type="checkbox" name="red_pack" value="{{d.id}}" lay-skin="switch" lay-text="开启|关闭" lay-filter="red_pack" {{ d.red_pack == 1 ? 'checked' : '' }}>
+</script>
+
+<script type="text/html" id="can_use_in_third_game">
+    <input type="checkbox" name="can_use_in_third_game" value="{{d.id}}" lay-skin="switch" lay-text="开启|关闭" lay-filter="can_use_in_third_game" {{ d.can_use_in_third_game == 1 ? 'checked' : '' }}>
+</script>
+
+<script type="text/html" id="operation">
+    <button class="layui-btn layui-btn-xs" lay-event="edit"><i class="layui-icon">&#xe642;</i>编辑</button>
+    <!--<button class="layui-btn layui-btn-xs layui-btn-danger" lay-event="del">删除</button>-->
+</script>
+
+<script src="{$ctrl_res_url}/js/list.js?version={$version}"></script>
+{/block}

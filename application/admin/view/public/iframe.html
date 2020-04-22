@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{block name='title'}{$top['cn']}-{$cur['cn']}{/block}</title>
+    <link rel="stylesheet" href="{$plugin_url}/layui/css/layui.css?version={$version}">
+    <link rel="stylesheet" href="{$public_url}/css/iframe.css?version={$version}">
+    {block name='link'}{/block}
+</head>
+<body>
+{block name='body'}{/block}
+<script src="{$plugin_url}/layui/layui.all.js?version={$version}"></script>
+<script src="{$plugin_url}/jquery/jquery.js?version={$version}"></script>
+<script src="{$public_url}/js/lib.js?version={$version}"></script>
+<script src="{$public_url}/js/global.js?version={$version}"></script>
+<script src="{$public_url}/js/currency.js?version={$version}"></script>
+<script src="{$public_url}/js/public.js?version={$version}"></script>
+{block name='script'}{/block}
+</body>
+</html>

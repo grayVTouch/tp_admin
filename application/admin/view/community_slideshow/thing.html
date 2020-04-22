@@ -1,0 +1,50 @@
+{extend name='public/iframe' /}
+
+{block name='link'}
+<link rel="stylesheet" href="{$public_url}/css/thing.css?version={$version}">
+<link rel="stylesheet" href="{$ctrl_res_url}/css/thing.css?version={$version}">
+{/block}
+
+{block name='body'}
+<!--<form class="layui-form layui-form-pane" method="post" id="form">-->
+<form class="layui-form" id="form">
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">图片</label>
+        <div class="layui-input-block">
+            <div class="line">
+                <button type="button" class="layui-btn" id="image">
+                    <i class="layui-icon">&#xe67c;</i>图片
+                </button>
+            </div>
+            <div class="line" id="image-preview">
+                <img src="{$thing->pic_explain ?? ''}" class="image">
+            </div>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">状态</label>
+        <div class="layui-input-block">
+            {foreach $status as $k => $v}
+            {if $mode == 'edit'}
+            <input type="radio" name="status" value="{$k}" title="{$v}" {if $k == $thing->status}checked="checked"{/if}>
+            {else /}
+            <input type="radio" name="status" value="{$k}" title="{$v}" {if $k == 1}checked="checked"{/if}>
+            {/if}
+            {/foreach}
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <div class="layui-input-block">
+            <button class="layui-btn" lay-submit="submit" lay-filter="form">立即提交</button>
+        </div>
+    </div>
+
+</form>
+{/block}
+
+{block name='script'}
+<script src="{$ctrl_res_url}/js/thing.js?version={$version}"></script>
+{/block}

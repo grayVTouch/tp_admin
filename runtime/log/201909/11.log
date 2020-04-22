@@ -1,0 +1,73 @@
+---------------------------------------------------------------
+[2019-09-11T09:57:20+08:00] 127.0.0.1 GET lucky_admin.com/
+[运行时间：1.267089s] [吞吐率：0.79req/s] [内存消耗：1,832.64kb] [文件加载：116]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'purpose' => 'prefetch',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-09-11T09:57:21+08:00] 127.0.0.1 GET lucky_admin.com/admin/index/indexView
+[运行时间：0.167955s] [吞吐率：5.95req/s] [内存消耗：2,031.92kb] [文件加载：125]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'purpose' => 'prefetch',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-09-11T09:57:22+08:00] 127.0.0.1 GET lucky_admin.com/admin/login/loginView
+[运行时间：0.899748s] [吞吐率：1.11req/s] [内存消耗：3,310.98kb] [文件加载：139]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'purpose' => 'prefetch',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=6fia1a75h78fvuqd818l5s8u9d',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\lucky\application\admin\view\login\login.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.258985s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.172667s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `route` = '/admin/login/loginView' LIMIT 1 [ RunTime:0.165652s ]

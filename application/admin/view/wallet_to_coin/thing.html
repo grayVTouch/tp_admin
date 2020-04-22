@@ -1,0 +1,62 @@
+{extend name='public/iframe' /}
+
+{block name='link'}
+<link rel="stylesheet" href="{$public_url}/css/thing.css?version={$version}">
+<link rel="stylesheet" href="{$ctrl_res_url}/css/thing.css?version={$version}">
+{/block}
+
+{block name='body'}
+<!--<form class="layui-form layui-form-pane" method="post" id="form">-->
+<form class="layui-form" id="form">
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">用什么币兑换<b class="font-red">*</b></label>
+        <div class="layui-input-block">
+            <select name="from_coin_id" required="required"  lay-verify="required">
+                <option value="">请选择...</option>
+                {foreach $coin as $v}
+                {if $mode == 'edit'}
+                <option value="{$v->id}" {if $thing->from_coin_id == $v->id}selected="selected"{/if}>{$v->name}【{$v->cname}】</option>
+                {else /}
+                <option value="{$v->id}">{$v->name}【{$v->cname}】</option>
+                {/if}
+                {/foreach}
+            </select>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">兑换什么币<b class="font-red">*</b></label>
+        <div class="layui-input-block">
+            <select name="to_coin_id" required="required"  lay-verify="required">
+                <option value="">请选择...</option>
+                {foreach $coin as $v}
+                {if $mode == 'edit'}
+                <option value="{$v->id}" {if $thing->to_coin_id == $v->id}selected="selected"{/if}>{$v->name}【{$v->cname}】</option>
+                {else /}
+                <option value="{$v->id}">{$v->name}【{$v->cname}】</option>
+                {/if}
+                {/foreach}
+            </select>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">币种资产类型<b class="font-red">*</b></label>
+        <div class="layui-input-block">
+            <input type="text" name="symbol" required="required" value="{$thing->symbol ?? ''}"  lay-verify="required" class="layui-input">
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <div class="layui-input-block">
+            <button class="layui-btn" lay-submit="submit" lay-filter="form">立即提交</button>
+        </div>
+    </div>
+
+</form>
+{/block}
+
+{block name='script'}
+<script src="{$ctrl_res_url}/js/thing.js?version={$version}"></script>
+{/block}

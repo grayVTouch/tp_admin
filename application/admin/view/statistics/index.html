@@ -1,0 +1,291 @@
+{extend name='public/base' /}
+
+{block name='link'}
+<link rel="stylesheet" href="{$ctrl_res_url}/css/index.css">
+{/block}
+
+{block name='body'}
+<div class="line">
+    <div class="header">
+        <div class="left">总转入：</div>
+        <div class="right"></div>
+    </div>
+    <div class="content">
+        <table class="layui-table">
+            <colgroup>
+              <col width="150">
+              <col width="200">
+              <col width="200">
+              <col>
+            </colgroup>
+            <thead>
+            <tr>
+                <th>币种</th>
+                <th>总转入</th>
+                <th>今日转入</th>
+            </tr>
+            </thead>
+            <tbody>
+            {foreach $total_into as $vo} 
+                <tr>
+                  <td>{$vo.cname}</td>
+                  <td>{$vo.total}</td>
+                  <td>{$vo.today}</td>
+                </tr>
+            {/foreach}
+            </tbody>
+        </table>
+    </div>
+</div>
+<div class="line">
+    <div class="header">
+        <div class="left">总转出：</div>
+        <div class="right"></div>
+    </div>
+    <div class="content">
+        <table class="layui-table">
+            <colgroup>
+              <col width="150">
+              <col width="200">
+              <col width="200">
+              <col>
+            </colgroup>            
+            <thead>
+            <tr>
+                <th>币种</th>
+                <th>总转出</th>
+                <th>今日转出</th>
+            </tr>
+            </thead>
+            <tbody>
+            {foreach $total_out as $vo} 
+                <tr>
+                  <td>{$vo.cname}</td>
+                  <td>{$vo.total}</td>
+                  <td>{$vo.today}</td>
+                </tr>
+            {/foreach}
+            </tbody>
+        </table>
+    </div>
+</div>
+<div class="line">
+    <div class="header">
+        <div class="left">理财游戏转入：</div>
+        <div class="right"></div>
+    </div>
+    <div class="content">
+        <table class="layui-table">
+            <colgroup>
+              <col width="150">
+              <col width="200">
+              <col width="200">
+              <col>
+            </colgroup>
+            <thead>
+            <tr>
+                <th>币种</th>
+                <th>总转入</th>
+                <th>今日转入</th>
+            </tr>
+            </thead>
+            <tbody>
+            {foreach $game_into as $vo} 
+                <tr>
+                  <td>{$vo.cname}</td>
+                  <td>{$vo.total}</td>
+                  <td>{$vo.today}</td>
+                </tr>
+            {/foreach}
+            </tbody>
+        </table>
+    </div>
+</div>
+<div class="line">
+    <div class="header">
+        <div class="left">理财游戏转出：</div>
+        <div class="right"></div>
+    </div>
+    <div class="content">
+        <table class="layui-table">
+            <colgroup>
+              <col width="150">
+              <col width="200">
+              <col width="200">
+              <col>
+            </colgroup>
+            <thead>
+            <tr>
+                <th>币种</th>
+                <th>总转出</th>
+                <th>今日转出</th>
+            </tr>
+            </thead>
+            <tbody>
+            {foreach $game_out as $vo} 
+                <tr>
+                  <td>{$vo.cname}</td>
+                  <td>{$vo.total}</td>
+                  <td>{$vo.today}</td>
+                </tr>
+            {/foreach}
+            </tbody>
+        </table>
+    </div>
+</div>
+<div class="line">
+    <div class="header">
+        <div class="left">划转转入：</div>
+        <div class="right"></div>
+    </div>
+    <div class="content">
+        <table class="layui-table">
+            <colgroup>
+              <col width="150">
+              <col width="200">
+              <col width="200">
+              <col>
+            </colgroup>
+            <thead>
+            <tr>
+                <th>币种</th>
+                <th>总转入</th>
+                <th>今日转入</th>
+            </tr>
+            </thead>
+            <tbody>
+            {foreach $hz_into as $vo} 
+                <tr>
+                  <td>{$vo.cname}</td>
+                  <td>{$vo.total}</td>
+                  <td>{$vo.today}</td>
+                </tr>
+            {/foreach}
+            </tbody>
+        </table>
+    </div>
+</div>
+<div class="line">
+    <div class="header">
+        <div class="left">划转转出：</div>
+        <div class="right"></div>
+    </div>
+    <div class="content">
+        <table class="layui-table">
+            <colgroup>
+              <col width="150">
+              <col width="200">
+              <col width="200">
+              <col>
+            </colgroup>
+            <thead>
+            <tr>
+                <th>币种</th>
+                <th>总转出</th>
+                <th>今日转出</th>
+            </tr>
+            </thead>
+            <tbody>
+            {foreach $hz_out as $vo} 
+                <tr>
+                  <td>{$vo.cname}</td>
+                  <td>{$vo.total}</td>
+                  <td>{$vo.today}</td>
+                </tr>
+            {/foreach}
+            </tbody>
+        </table>
+    </div>
+</div>
+<!-- 理材游戏统计 -->
+<div class="line">
+    <div class="header">
+        <div class="left">理财游戏</div>
+        <div class="right"></div>
+    </div>
+    <div class="content">
+        <table class="layui-table">
+            <thead>
+            <tr>
+                <th>总投资</th>
+                <th>总提取</th>
+                <th>总收益</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>{$in_sum_for_game}</td>
+                <td>{$out_sum_for_game}</td>
+                <td>{$total_game_profit}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+<div class="line">
+    <div class="header">
+        <div class="left">第三方游戏</div>
+        <div class="right"></div>
+    </div>
+    <div class="content">
+        <table class="layui-table">
+            <thead>
+            <tr>
+                <th>游戏账号转出到第三方游戏</th>
+                <th>第三方游戏转入到游戏账号</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>{$out_sum_for_third_game}</td>
+                <td>{$in_sum_for_third_game}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div class="line">
+    <div class="header">
+        <div class="left">用户统计</div>
+        <div class="right"></div>
+    </div>
+    <div class="content">
+        <table class="layui-table">
+            <tbody>
+            <tr>
+                <td>总注册数</td>
+                <td>{$user_count}</td>
+            </tr>
+            <tr>
+                <td>今日注册数</td>
+                <td>{$user_count_for_today}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div class="line">
+    <div class="header">
+        <div class="left">后台操作</div>
+        <div class="right"></div>
+    </div>
+    <div class="content">
+        <table class="layui-table">
+            <tbody>
+            <tr>
+                <td>后台拨币数量</td>
+                <td>{$sum_for_admin}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+{/block}
+
+{block name='script'}{/block}

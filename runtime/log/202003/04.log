@@ -1,0 +1,589 @@
+---------------------------------------------------------------
+[2020-03-04T12:28:02+08:00] 127.0.0.1 GET admin.game.com/
+[运行时间：1.685418s] [吞吐率：0.59req/s] [内存消耗：1,835.80kb] [文件加载：116]
+[ info ] [ LANG ] D:\work\code\mchat_gamming_adm\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.game.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-03-04T12:28:02+08:00] 127.0.0.1 GET admin.game.com/admin/index/indexView
+[运行时间：0.168019s] [吞吐率：5.95req/s] [内存消耗：2,037.70kb] [文件加载：125]
+[ info ] [ LANG ] D:\work\code\mchat_gamming_adm\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.game.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-03-04T12:28:03+08:00] 127.0.0.1 GET admin.game.com/admin/login/loginView
+[运行时间：0.883496s] [吞吐率：1.13req/s] [内存消耗：3,316.82kb] [文件加载：139]
+[ info ] [ LANG ] D:\work\code\mchat_gamming_adm\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.game.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=b3plpotjt9cqr3lv7gm010387s',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\mchat_gamming_adm\application\admin\view\login\login.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.291347s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=mchat_gamming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cq_route` [ RunTime:0.170315s ]
+[ sql ] [ SQL ] SELECT * FROM `cq_route` WHERE  `route` = '/admin/login/loginView' LIMIT 1 [ RunTime:0.172811s ]
+---------------------------------------------------------------
+[2020-03-04T12:28:05+08:00] 127.0.0.1 GET admin.game.com/admin/login/loginView
+[运行时间：1.115382s] [吞吐率：0.90req/s] [内存消耗：3,315.98kb] [文件加载：139]
+[ info ] [ LANG ] D:\work\code\mchat_gamming_adm\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.game.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=b3plpotjt9cqr3lv7gm010387s',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\mchat_gamming_adm\application\admin\view\login\login.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.282097s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=mchat_gamming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cq_route` [ RunTime:0.574960s ]
+[ sql ] [ SQL ] SELECT * FROM `cq_route` WHERE  `route` = '/admin/login/loginView' LIMIT 1 [ RunTime:0.172085s ]
+---------------------------------------------------------------
+[2020-03-04T12:28:08+08:00] 127.0.0.1 POST admin.game.com/admin/login/login
+[运行时间：1.496099s] [吞吐率：0.67req/s] [内存消耗：3,614.39kb] [文件加载：148]
+[ info ] [ LANG ] D:\work\code\mchat_gamming_adm\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.game.com',
+  'content-length' => '30',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://admin.game.com',
+  'referer' => 'http://admin.game.com/admin/login/loginView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=b3plpotjt9cqr3lv7gm010387s',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.258903s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=mchat_gamming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cq_administrator` [ RunTime:0.170571s ]
+[ sql ] [ SQL ] SELECT * FROM `cq_administrator` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.171660s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cq_role` [ RunTime:0.168973s ]
+[ sql ] [ SQL ] SELECT * FROM `cq_role` WHERE  `id` = 5 [ RunTime:0.163343s ]
+[ sql ] [ SQL ] UPDATE `cq_administrator`  SET `last_ip` = '127.0.0.1' , `last_time` = '2020-03-04 12:28:07' , `number` = 180  WHERE  `id` = 1 [ RunTime:0.175982s ]
+---------------------------------------------------------------
+[2020-03-04T12:28:09+08:00] 127.0.0.1 GET admin.game.com/admin/index/indexView
+[运行时间：0.891967s] [吞吐率：1.12req/s] [内存消耗：3,696.10kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\mchat_gamming_adm\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.game.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://admin.game.com/admin/login/loginView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=b3plpotjt9cqr3lv7gm010387s',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\mchat_gamming_adm\application\admin\view\index\index.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.269685s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=mchat_gamming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cq_route` [ RunTime:0.164450s ]
+[ sql ] [ SQL ] SELECT * FROM `cq_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.171383s ]
+[ sql ] [ SQL ] SELECT * FROM `cq_route` WHERE  `route` = '/admin/index/indexView' LIMIT 1 [ RunTime:0.162834s ]
+---------------------------------------------------------------
+[2020-03-04T12:28:10+08:00] 127.0.0.1 GET admin.game.com/admin/index/indexView
+[运行时间：0.876774s] [吞吐率：1.14req/s] [内存消耗：3,758.63kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\mchat_gamming_adm\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.game.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=b3plpotjt9cqr3lv7gm010387s',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\mchat_gamming_adm\application\admin\view\index\index.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.298821s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=mchat_gamming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cq_route` [ RunTime:0.169381s ]
+[ sql ] [ SQL ] SELECT * FROM `cq_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.170284s ]
+[ sql ] [ SQL ] SELECT * FROM `cq_route` WHERE  `route` = '/admin/index/indexView' LIMIT 1 [ RunTime:0.169812s ]
+---------------------------------------------------------------
+[2020-03-04T12:30:13+08:00] 127.0.0.1 GET admin.game.com/admin/user/listView
+[运行时间：1.013039s] [吞吐率：0.99req/s] [内存消耗：3,780.83kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\mchat_gamming_adm\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.game.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://admin.game.com/admin/index/indexView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=b3plpotjt9cqr3lv7gm010387s',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\mchat_gamming_adm\application\admin\view\user\list.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.285629s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=mchat_gamming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cq_route` [ RunTime:0.185339s ]
+[ sql ] [ SQL ] SELECT * FROM `cq_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.176558s ]
+[ sql ] [ SQL ] SELECT * FROM `cq_route` WHERE  `route` = '/admin/user/listView' LIMIT 1 [ RunTime:0.194960s ]
+---------------------------------------------------------------
+[2020-03-04T12:30:15+08:00] 127.0.0.1 POST admin.game.com/admin/user/list
+[运行时间：1.410829s] [吞吐率：0.71req/s] [内存消耗：3,781.15kb] [文件加载：148]
+[ info ] [ LANG ] D:\work\code\mchat_gamming_adm\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.game.com',
+  'content-length' => '15',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://admin.game.com',
+  'referer' => 'http://admin.game.com/admin/user/listView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=b3plpotjt9cqr3lv7gm010387s',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.340664s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=mchat_gamming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cq_route` [ RunTime:0.170700s ]
+[ sql ] [ SQL ] SELECT * FROM `cq_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.174766s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cq_user` [ RunTime:0.191275s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `cq_user` [ RunTime:0.174841s ]
+[ sql ] [ SQL ] SELECT * FROM `cq_user` ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.190904s ]
+---------------------------------------------------------------
+[2020-03-04T12:30:16+08:00] 127.0.0.1 GET admin.game.com/admin/user/listView
+[运行时间：2.053584s] [吞吐率：0.49req/s] [内存消耗：3,779.45kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\mchat_gamming_adm\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.game.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=b3plpotjt9cqr3lv7gm010387s',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\mchat_gamming_adm\application\admin\view\user\list.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.291766s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=mchat_gamming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cq_route` [ RunTime:0.171054s ]
+[ sql ] [ SQL ] SELECT * FROM `cq_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.174621s ]
+[ sql ] [ SQL ] SELECT * FROM `cq_route` WHERE  `route` = '/admin/user/listView' LIMIT 1 [ RunTime:0.204802s ]
+---------------------------------------------------------------
+[2020-03-04T12:30:17+08:00] 127.0.0.1 GET admin.game.com/admin/role/listView
+[运行时间：0.939715s] [吞吐率：1.06req/s] [内存消耗：3,782.02kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\mchat_gamming_adm\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.game.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://admin.game.com/admin/user/listView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=b3plpotjt9cqr3lv7gm010387s',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\mchat_gamming_adm\application\admin\view\role\list.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.276839s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=mchat_gamming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cq_route` [ RunTime:0.172881s ]
+[ sql ] [ SQL ] SELECT * FROM `cq_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.190653s ]
+[ sql ] [ SQL ] SELECT * FROM `cq_route` WHERE  `route` = '/admin/role/listView' LIMIT 1 [ RunTime:0.174184s ]
+---------------------------------------------------------------
+[2020-03-04T12:30:19+08:00] 127.0.0.1 POST admin.game.com/admin/role/list
+[运行时间：1.221532s] [吞吐率：0.82req/s] [内存消耗：3,726.70kb] [文件加载：146]
+[ info ] [ LANG ] D:\work\code\mchat_gamming_adm\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.game.com',
+  'content-length' => '15',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://admin.game.com',
+  'referer' => 'http://admin.game.com/admin/role/listView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=b3plpotjt9cqr3lv7gm010387s',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.274349s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=mchat_gamming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cq_route` [ RunTime:0.167744s ]
+[ sql ] [ SQL ] SELECT * FROM `cq_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.168605s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cq_role` [ RunTime:0.174954s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `cq_role` [ RunTime:0.165238s ]
+[ sql ] [ SQL ] SELECT * FROM `cq_role` ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.171257s ]
+---------------------------------------------------------------
+[2020-03-04T12:30:20+08:00] 127.0.0.1 GET admin.game.com/admin/role/listView
+[运行时间：1.928136s] [吞吐率：0.52req/s] [内存消耗：3,780.63kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\mchat_gamming_adm\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.game.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=b3plpotjt9cqr3lv7gm010387s',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\mchat_gamming_adm\application\admin\view\role\list.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.273941s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=mchat_gamming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cq_route` [ RunTime:0.175193s ]
+[ sql ] [ SQL ] SELECT * FROM `cq_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.166112s ]
+[ sql ] [ SQL ] SELECT * FROM `cq_route` WHERE  `route` = '/admin/role/listView' LIMIT 1 [ RunTime:0.179025s ]
+---------------------------------------------------------------
+[2020-03-04T12:30:22+08:00] 127.0.0.1 GET admin.game.com/admin/balance_record/listView
+[运行时间：1.812937s] [吞吐率：0.55req/s] [内存消耗：3,830.95kb] [文件加载：147]
+[ info ] [ LANG ] D:\work\code\mchat_gamming_adm\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.game.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://admin.game.com/admin/role/listView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=b3plpotjt9cqr3lv7gm010387s',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\mchat_gamming_adm\application\admin\view\balance_record\list.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+  18 => 'coin',
+  19 => 'balance_record_type',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.282444s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=mchat_gamming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cq_route` [ RunTime:0.185082s ]
+[ sql ] [ SQL ] SELECT * FROM `cq_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.177593s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cq_coin` [ RunTime:0.214793s ]
+[ sql ] [ SQL ] SELECT * FROM `cq_coin` [ RunTime:0.196162s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cq_type` [ RunTime:0.196712s ]
+[ sql ] [ SQL ] SELECT * FROM `cq_type` ORDER BY `id` DESC [ RunTime:0.196879s ]
+[ sql ] [ SQL ] SELECT * FROM `cq_route` WHERE  `route` = '/admin/balance_record/listView' LIMIT 1 [ RunTime:0.180107s ]
+---------------------------------------------------------------
+[2020-03-04T12:30:24+08:00] 127.0.0.1 POST admin.game.com/admin/balance_record/list
+[运行时间：2.045183s] [吞吐率：0.49req/s] [内存消耗：3,948.17kb] [文件加载：152]
+[ info ] [ LANG ] D:\work\code\mchat_gamming_adm\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.game.com',
+  'content-length' => '15',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://admin.game.com',
+  'referer' => 'http://admin.game.com/admin/balance_record/listView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=b3plpotjt9cqr3lv7gm010387s',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.284152s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=mchat_gamming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cq_route` [ RunTime:0.213051s ]
+[ sql ] [ SQL ] SELECT * FROM `cq_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.181340s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cq_balance_record` [ RunTime:0.173013s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `cq_balance_record` `br` LEFT JOIN `cq_user` `u` ON `br`.`uid`=`u`.`id` [ RunTime:0.185632s ]
+[ sql ] [ SQL ] SELECT `br`.* FROM `cq_balance_record` `br` LEFT JOIN `cq_user` `u` ON `br`.`uid`=`u`.`id` ORDER BY `br`.`id` ASC LIMIT 0,10 [ RunTime:0.181787s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cq_coin` [ RunTime:0.176045s ]
+[ sql ] [ SQL ] SELECT * FROM `cq_coin` WHERE  `id` IN (1) [ RunTime:0.172591s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cq_user` [ RunTime:0.173563s ]
+[ sql ] [ SQL ] SELECT * FROM `cq_user` WHERE  `id` IN (1,14,23,22) [ RunTime:0.174540s ]
+---------------------------------------------------------------
+[2020-03-04T12:30:25+08:00] 127.0.0.1 GET admin.game.com/admin/balance_record/listView
+[运行时间：3.462165s] [吞吐率：0.29req/s] [内存消耗：3,829.56kb] [文件加载：147]
+[ info ] [ LANG ] D:\work\code\mchat_gamming_adm\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.game.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=b3plpotjt9cqr3lv7gm010387s',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\mchat_gamming_adm\application\admin\view\balance_record\list.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+  18 => 'coin',
+  19 => 'balance_record_type',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.288244s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=mchat_gamming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cq_route` [ RunTime:0.168833s ]
+[ sql ] [ SQL ] SELECT * FROM `cq_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.168901s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cq_coin` [ RunTime:0.170586s ]
+[ sql ] [ SQL ] SELECT * FROM `cq_coin` [ RunTime:0.182237s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cq_type` [ RunTime:0.178373s ]
+[ sql ] [ SQL ] SELECT * FROM `cq_type` ORDER BY `id` DESC [ RunTime:0.171309s ]
+[ sql ] [ SQL ] SELECT * FROM `cq_route` WHERE  `route` = '/admin/balance_record/listView' LIMIT 1 [ RunTime:0.181958s ]

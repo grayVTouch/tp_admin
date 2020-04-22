@@ -1,0 +1,22 @@
+{extend name='public/base' /}
+
+{block name='link'}
+<link rel="stylesheet" href="{$ctrl_res_url}/css/privilege.css">
+{/block}
+
+{block name='body'}
+<div class="body-header">
+    <div class="left">当前正在修改角色</div>
+    <div class="right">{$role->name}</div>
+</div>
+
+<div id="tree"></div>
+
+<div class="submit">
+    <button class="layui-btn" id="allocate">分配权限</button>
+</div>
+{/block}
+
+{block name='script'}
+<script src="{$ctrl_res_url}/js/privilege.js"></script>
+{/block}

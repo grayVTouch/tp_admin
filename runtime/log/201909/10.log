@@ -1,0 +1,756 @@
+---------------------------------------------------------------
+[2019-09-10T16:19:38+08:00] 127.0.0.1 GET lucky_admin.com/
+[运行时间：1.127811s] [吞吐率：0.89req/s] [内存消耗：1,832.64kb] [文件加载：116]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'purpose' => 'prefetch',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-09-10T16:19:38+08:00] 127.0.0.1 GET lucky_admin.com/admin/index/indexView
+[运行时间：0.127995s] [吞吐率：7.81req/s] [内存消耗：2,031.92kb] [文件加载：125]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'purpose' => 'prefetch',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-09-10T16:19:39+08:00] 127.0.0.1 GET lucky_admin.com/admin/login/loginView
+[运行时间：0.882669s] [吞吐率：1.13req/s] [内存消耗：3,310.98kb] [文件加载：139]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'purpose' => 'prefetch',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=17ro6fu1e8molj4p1vh0b4sacu',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\lucky\application\admin\view\login\login.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.320486s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.174254s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `route` = '/admin/login/loginView' LIMIT 1 [ RunTime:0.173454s ]
+---------------------------------------------------------------
+[2019-09-10T16:19:40+08:00] 127.0.0.1 GET lucky_admin.com/admin/login/loginView
+[运行时间：0.698289s] [吞吐率：1.43req/s] [内存消耗：3,310.60kb] [文件加载：139]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=17ro6fu1e8molj4p1vh0b4sacu',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\lucky\application\admin\view\login\login.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.277912s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.179501s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `route` = '/admin/login/loginView' LIMIT 1 [ RunTime:0.179900s ]
+---------------------------------------------------------------
+[2019-09-10T16:19:42+08:00] 127.0.0.1 POST lucky_admin.com/admin/login/login
+[运行时间：1.375014s] [吞吐率：0.73req/s] [内存消耗：3,607.85kb] [文件加载：148]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'content-length' => '30',
+  'accept' => '*/*',
+  'origin' => 'http://lucky_admin.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://lucky_admin.com/admin/login/loginView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=17ro6fu1e8molj4p1vh0b4sacu',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.264415s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_administrator` [ RunTime:0.167570s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_administrator` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.166943s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_role` [ RunTime:0.167429s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_role` WHERE  `id` = 1 [ RunTime:0.167369s ]
+[ sql ] [ SQL ] UPDATE `tk_administrator`  SET `last_ip` = '127.0.0.1' , `last_time` = '2019-09-10 16:19:42' , `number` = 47  WHERE  `id` = 1 [ RunTime:0.168207s ]
+---------------------------------------------------------------
+[2019-09-10T16:19:43+08:00] 127.0.0.1 GET lucky_admin.com/admin/index/indexView
+[运行时间：0.890239s] [吞吐率：1.12req/s] [内存消耗：3,803.05kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://lucky_admin.com/admin/login/loginView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=17ro6fu1e8molj4p1vh0b4sacu',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\lucky\application\admin\view\index\index.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.274131s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.174355s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.180039s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `route` = '/admin/index/indexView' LIMIT 1 [ RunTime:0.174238s ]
+---------------------------------------------------------------
+[2019-09-10T17:27:27+08:00] 127.0.0.1 GET lucky_admin.com/
+[运行时间：0.042860s] [吞吐率：23.33req/s] [内存消耗：1,833.05kb] [文件加载：116]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'purpose' => 'prefetch',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=17ro6fu1e8molj4p1vh0b4sacu',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-09-10T17:27:28+08:00] 127.0.0.1 GET lucky_admin.com/admin/index/indexView
+[运行时间：0.821259s] [吞吐率：1.22req/s] [内存消耗：3,907.63kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'purpose' => 'prefetch',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=17ro6fu1e8molj4p1vh0b4sacu',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\lucky\application\admin\view\index\index.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.276848s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.165017s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.164629s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `route` = '/admin/index/indexView' LIMIT 1 [ RunTime:0.165114s ]
+---------------------------------------------------------------
+[2019-09-10T17:27:32+08:00] 127.0.0.1 GET lucky_admin.com/admin/index/indexView
+[运行时间：0.903409s] [吞吐率：1.11req/s] [内存消耗：3,911.24kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=17ro6fu1e8molj4p1vh0b4sacu',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\lucky\application\admin\view\index\index.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.274801s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.176967s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.177149s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `route` = '/admin/index/indexView' LIMIT 1 [ RunTime:0.175069s ]
+---------------------------------------------------------------
+[2019-09-10T17:27:42+08:00] 127.0.0.1 GET lucky_admin.com/admin/statistics/indexView
+[运行时间：5.702179s] [吞吐率：0.18req/s] [内存消耗：4,716.79kb] [文件加载：161]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://lucky_admin.com/admin/index/indexView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=17ro6fu1e8molj4p1vh0b4sacu',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\lucky\application\admin\view\statistics\index.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+  18 => 'in_sum_for_game',
+  19 => 'out_sum_for_game',
+  20 => 'user_count',
+  21 => 'user_count_for_today',
+  22 => 'transfer',
+  23 => 'transfer_out',
+  24 => 'transfer_record',
+  25 => 'sum_for_transfer',
+  26 => 'sum_for_admin',
+  27 => 'transfer_in_sum',
+  28 => 'transfer_out_sum',
+  29 => 'total_game_profit',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.273497s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.176106s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.176713s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_game_record` [ RunTime:0.176536s ]
+[ sql ] [ SQL ] SELECT SUM(`amount`) AS tp_sum FROM `tk_game_record` [ RunTime:0.175370s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_game_tq_record` [ RunTime:0.175645s ]
+[ sql ] [ SQL ] SELECT SUM(`amount`) AS tp_sum FROM `tk_game_tq_record` [ RunTime:0.177138s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_user` [ RunTime:0.174359s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tk_user` [ RunTime:0.174177s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tk_user` WHERE  ( date_format(date , "%Y-%m-%d") = "2019-09-10" ) [ RunTime:0.176754s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_balance_record` [ RunTime:0.175987s ]
+[ sql ] [ SQL ] SELECT SUM(`balance`) AS tp_sum FROM `tk_balance_record` WHERE  `type` = 31 [ RunTime:0.174989s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_wallet_recv` [ RunTime:0.176773s ]
+[ sql ] [ SQL ] SELECT id , coin_id , sum(amount) as amount FROM `tk_wallet_recv` GROUP BY `coin_id` [ RunTime:0.175654s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_coin` [ RunTime:0.176608s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_coin` WHERE  `id` IN (1,3,4) [ RunTime:0.177523s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_transfer_out` [ RunTime:0.176527s ]
+[ sql ] [ SQL ] SELECT id , cid , sum(amount) as amount FROM `tk_transfer_out` WHERE  `status` >= 0 GROUP BY `cid` [ RunTime:0.176856s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_coin` WHERE  `id` IN (1) [ RunTime:0.176005s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_coin` WHERE  `id` IN (1,2) [ RunTime:0.175748s ]
+[ sql ] [ SQL ] SELECT SUM(`amount`) AS tp_sum FROM `tk_wallet_recv` WHERE  `coin_id` = 1 [ RunTime:0.175582s ]
+[ sql ] [ SQL ] SELECT SUM(`amount`) AS tp_sum FROM `tk_transfer_out` WHERE  `cid` = 1  AND `status` >= 0 [ RunTime:0.176145s ]
+[ sql ] [ SQL ] SELECT SUM(`amount`) AS tp_sum FROM `tk_wallet_recv` WHERE  `coin_id` = 2 [ RunTime:0.175321s ]
+[ sql ] [ SQL ] SELECT SUM(`amount`) AS tp_sum FROM `tk_transfer_out` WHERE  `cid` = 2  AND `status` >= 0 [ RunTime:0.174099s ]
+[ sql ] [ SQL ] SELECT SUM(`balance`) AS tp_sum FROM `tk_balance_record` WHERE  `type` = 203 [ RunTime:0.175426s ]
+[ sql ] [ SQL ] SELECT SUM(`amount`) AS tp_sum FROM `tk_wallet_recv` [ RunTime:0.176929s ]
+[ sql ] [ SQL ] SELECT SUM(`amount`) AS tp_sum FROM `tk_transfer_out` WHERE  `status` >= 0 [ RunTime:0.175018s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_game_profit_record` [ RunTime:0.177024s ]
+[ sql ] [ SQL ] SELECT SUM(`profit`) AS tp_sum FROM `tk_game_profit_record` [ RunTime:0.174686s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `route` = '/admin/statistics/indexView' LIMIT 1 [ RunTime:0.173449s ]
+---------------------------------------------------------------
+[2019-09-10T17:27:56+08:00] 127.0.0.1 GET lucky_admin.com/admin/statistics/indexView
+[运行时间：0.086195s] [吞吐率：11.60req/s] [内存消耗：4,372.33kb] [文件加载：159]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://lucky_admin.com/admin/index/indexView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=17ro6fu1e8molj4p1vh0b4sacu',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\lucky\application\admin\view\statistics\index.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+  18 => 'in_sum_for_game',
+  19 => 'out_sum_for_game',
+  20 => 'user_count',
+  21 => 'user_count_for_today',
+  22 => 'transfer',
+  23 => 'transfer_out',
+  24 => 'transfer_record',
+  25 => 'sum_for_transfer',
+  26 => 'sum_for_admin',
+  27 => 'transfer_in_sum',
+  28 => 'transfer_out_sum',
+  29 => 'total_game_profit',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010728s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.002588s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.000910s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_game_record` [ RunTime:0.001486s ]
+[ sql ] [ SQL ] SELECT SUM(`amount`) AS tp_sum FROM `tk_game_record` [ RunTime:0.000534s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_game_tq_record` [ RunTime:0.001146s ]
+[ sql ] [ SQL ] SELECT SUM(`amount`) AS tp_sum FROM `tk_game_tq_record` [ RunTime:0.000553s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_user` [ RunTime:0.001526s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tk_user` [ RunTime:0.000478s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tk_user` WHERE  ( date_format(date , "%Y-%m-%d") = "2019-09-10" ) [ RunTime:0.000443s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_balance_record` [ RunTime:0.001297s ]
+[ sql ] [ SQL ] SELECT SUM(`balance`) AS tp_sum FROM `tk_balance_record` WHERE  `type` = 31 [ RunTime:0.000602s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_wallet_recv` [ RunTime:0.001207s ]
+[ sql ] [ SQL ] SELECT id , coin_id , sum(amount) as amount FROM `tk_wallet_recv` GROUP BY `coin_id` [ RunTime:0.000530s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_coin` [ RunTime:0.001346s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_coin` WHERE  `id` IN (1) [ RunTime:0.000596s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_transfer_out` [ RunTime:0.001242s ]
+[ sql ] [ SQL ] SELECT id , cid , sum(amount) as amount FROM `tk_transfer_out` WHERE  `status` >= 0 GROUP BY `cid` [ RunTime:0.000583s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_coin` WHERE  `id` IN (1) [ RunTime:0.000427s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_coin` WHERE  `id` IN (1,2) [ RunTime:0.000450s ]
+[ sql ] [ SQL ] SELECT SUM(`amount`) AS tp_sum FROM `tk_wallet_recv` WHERE  `coin_id` = 1 [ RunTime:0.000323s ]
+[ sql ] [ SQL ] SELECT SUM(`amount`) AS tp_sum FROM `tk_transfer_out` WHERE  `cid` = 1  AND `status` >= 0 [ RunTime:0.000351s ]
+[ sql ] [ SQL ] SELECT SUM(`amount`) AS tp_sum FROM `tk_wallet_recv` WHERE  `coin_id` = 2 [ RunTime:0.000271s ]
+[ sql ] [ SQL ] SELECT SUM(`amount`) AS tp_sum FROM `tk_transfer_out` WHERE  `cid` = 2  AND `status` >= 0 [ RunTime:0.000353s ]
+[ sql ] [ SQL ] SELECT SUM(`balance`) AS tp_sum FROM `tk_balance_record` WHERE  `type` = 203 [ RunTime:0.000393s ]
+[ sql ] [ SQL ] SELECT SUM(`amount`) AS tp_sum FROM `tk_wallet_recv` [ RunTime:0.000239s ]
+[ sql ] [ SQL ] SELECT SUM(`amount`) AS tp_sum FROM `tk_transfer_out` WHERE  `status` >= 0 [ RunTime:0.000238s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_game_profit_record` [ RunTime:0.001351s ]
+[ sql ] [ SQL ] SELECT SUM(`profit`) AS tp_sum FROM `tk_game_profit_record` [ RunTime:0.000408s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `route` = '/admin/statistics/indexView' LIMIT 1 [ RunTime:0.000309s ]
+---------------------------------------------------------------
+[2019-09-10T17:35:28+08:00] 127.0.0.1 GET lucky_admin.com/admin/statistics/indexView
+[运行时间：0.160269s] [吞吐率：6.24req/s] [内存消耗：4,201.34kb] [文件加载：159]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://lucky_admin.com/admin/index/indexView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=17ro6fu1e8molj4p1vh0b4sacu',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001161s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.002015s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.000777s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_game_record` [ RunTime:0.001205s ]
+[ sql ] [ SQL ] SELECT SUM(`amount`) AS tp_sum FROM `tk_game_record` [ RunTime:0.000402s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_game_tq_record` [ RunTime:0.001267s ]
+[ sql ] [ SQL ] SELECT SUM(`amount`) AS tp_sum FROM `tk_game_tq_record` [ RunTime:0.000349s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_user` [ RunTime:0.001516s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tk_user` [ RunTime:0.000334s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tk_user` WHERE  ( date_format(date , "%Y-%m-%d") = "2019-09-10" ) [ RunTime:0.000424s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_balance_record` [ RunTime:0.001326s ]
+[ sql ] [ SQL ] SELECT SUM(`balance`) AS tp_sum FROM `tk_balance_record` WHERE  `type` = 31 [ RunTime:0.000550s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_wallet_recv` [ RunTime:0.001479s ]
+[ sql ] [ SQL ] SELECT id , coin_id , sum(amount) as amount FROM `tk_wallet_recv` GROUP BY `coin_id` [ RunTime:0.000703s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_coin` [ RunTime:0.001571s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_coin` WHERE  `id` IN (1) [ RunTime:0.000528s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_transfer_out` [ RunTime:0.001323s ]
+[ sql ] [ SQL ] SELECT id , cid , sum(amount) as amount FROM `tk_transfer_out` WHERE  `status` >= 0 GROUP BY `cid` [ RunTime:0.000490s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_coin` WHERE  `id` IN (1) [ RunTime:0.000411s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_coin` WHERE  `id` IN (1,2) [ RunTime:0.000441s ]
+[ sql ] [ SQL ] SELECT SUM(`amount`) AS tp_sum FROM `tk_wallet_recv` WHERE  `coin_id` = 1 [ RunTime:0.000334s ]
+[ sql ] [ SQL ] SELECT SUM(`amount`) AS tp_sum FROM `tk_transfer_out` WHERE  `cid` = 1  AND `status` >= 0 [ RunTime:0.000325s ]
+[ sql ] [ SQL ] SELECT SUM(`amount`) AS tp_sum FROM `tk_wallet_recv` WHERE  `coin_id` = 2 [ RunTime:0.000236s ]
+[ sql ] [ SQL ] SELECT SUM(`amount`) AS tp_sum FROM `tk_transfer_out` WHERE  `cid` = 2  AND `status` >= 0 [ RunTime:0.000274s ]
+[ sql ] [ SQL ] SELECT SUM(`balance`) AS tp_sum FROM `tk_balance_record` WHERE  `type` = 203 [ RunTime:0.000341s ]
+[ sql ] [ SQL ] SELECT SUM(`amount`) AS tp_sum FROM `tk_wallet_recv` [ RunTime:0.000364s ]
+[ sql ] [ SQL ] SELECT SUM(`amount`) AS tp_sum FROM `tk_transfer_out` WHERE  `status` >= 0 [ RunTime:0.000331s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_game_profit_record` [ RunTime:0.001201s ]
+[ sql ] [ SQL ] SELECT SUM(`profit`) AS tp_sum FROM `tk_game_profit_record` [ RunTime:0.000401s ]
+[ sql ] [ SQL ] SELECT SUM(`amount`) AS tp_sum FROM `tk_game_record` [ RunTime:0.000243s ]
+[ error ] [0]method not exist:app\admin\model\GameTqRecordModel->sumTqInvestment[D:\work\code\lucky\thinkphp\library\think\db\Query.php:180]
+---------------------------------------------------------------
+[2019-09-10T17:35:46+08:00] 127.0.0.1 GET lucky_admin.com/admin/statistics/indexView
+[运行时间：0.185836s] [吞吐率：5.38req/s] [内存消耗：4,700.27kb] [文件加载：161]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://lucky_admin.com/admin/index/indexView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=17ro6fu1e8molj4p1vh0b4sacu',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\lucky\application\admin\view\statistics\index.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+  18 => 'in_sum_for_game',
+  19 => 'out_sum_for_game',
+  20 => 'user_count',
+  21 => 'user_count_for_today',
+  22 => 'transfer',
+  23 => 'transfer_out',
+  24 => 'transfer_record',
+  25 => 'sum_for_transfer',
+  26 => 'sum_for_admin',
+  27 => 'transfer_in_sum',
+  28 => 'transfer_out_sum',
+  29 => 'total_game_profit',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000909s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.001865s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.000863s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_game_record` [ RunTime:0.001607s ]
+[ sql ] [ SQL ] SELECT SUM(`amount`) AS tp_sum FROM `tk_game_record` [ RunTime:0.000611s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_game_tq_record` [ RunTime:0.001744s ]
+[ sql ] [ SQL ] SELECT SUM(`amount`) AS tp_sum FROM `tk_game_tq_record` [ RunTime:0.000408s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_user` [ RunTime:0.001717s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tk_user` [ RunTime:0.000355s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tk_user` WHERE  ( date_format(date , "%Y-%m-%d") = "2019-09-10" ) [ RunTime:0.000416s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_balance_record` [ RunTime:0.001742s ]
+[ sql ] [ SQL ] SELECT SUM(`balance`) AS tp_sum FROM `tk_balance_record` WHERE  `type` = 31 [ RunTime:0.000586s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_wallet_recv` [ RunTime:0.002166s ]
+[ sql ] [ SQL ] SELECT id , coin_id , sum(amount) as amount FROM `tk_wallet_recv` GROUP BY `coin_id` [ RunTime:0.000982s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_coin` [ RunTime:0.002660s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_coin` WHERE  `id` IN (1) [ RunTime:0.000818s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_transfer_out` [ RunTime:0.001934s ]
+[ sql ] [ SQL ] SELECT id , cid , sum(amount) as amount FROM `tk_transfer_out` WHERE  `status` >= 0 GROUP BY `cid` [ RunTime:0.000664s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_coin` WHERE  `id` IN (1) [ RunTime:0.000485s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_coin` WHERE  `id` IN (1,2) [ RunTime:0.000489s ]
+[ sql ] [ SQL ] SELECT SUM(`amount`) AS tp_sum FROM `tk_wallet_recv` WHERE  `coin_id` = 1 [ RunTime:0.000342s ]
+[ sql ] [ SQL ] SELECT SUM(`amount`) AS tp_sum FROM `tk_transfer_out` WHERE  `cid` = 1  AND `status` >= 0 [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SELECT SUM(`amount`) AS tp_sum FROM `tk_wallet_recv` WHERE  `coin_id` = 2 [ RunTime:0.000254s ]
+[ sql ] [ SQL ] SELECT SUM(`amount`) AS tp_sum FROM `tk_transfer_out` WHERE  `cid` = 2  AND `status` >= 0 [ RunTime:0.000391s ]
+[ sql ] [ SQL ] SELECT SUM(`balance`) AS tp_sum FROM `tk_balance_record` WHERE  `type` = 203 [ RunTime:0.000357s ]
+[ sql ] [ SQL ] SELECT SUM(`amount`) AS tp_sum FROM `tk_wallet_recv` [ RunTime:0.000256s ]
+[ sql ] [ SQL ] SELECT SUM(`amount`) AS tp_sum FROM `tk_transfer_out` WHERE  `status` >= 0 [ RunTime:0.000273s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_game_profit_record` [ RunTime:0.001677s ]
+[ sql ] [ SQL ] SELECT SUM(`profit`) AS tp_sum FROM `tk_game_profit_record` [ RunTime:0.000480s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `route` = '/admin/statistics/indexView' LIMIT 1 [ RunTime:0.000458s ]
+---------------------------------------------------------------
+[2019-09-10T17:36:35+08:00] 127.0.0.1 GET lucky_admin.com/admin/statistics/indexView
+[运行时间：0.088086s] [吞吐率：11.35req/s] [内存消耗：4,373.23kb] [文件加载：159]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://lucky_admin.com/admin/index/indexView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=17ro6fu1e8molj4p1vh0b4sacu',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\lucky\application\admin\view\statistics\index.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+  18 => 'in_sum_for_game',
+  19 => 'out_sum_for_game',
+  20 => 'user_count',
+  21 => 'user_count_for_today',
+  22 => 'transfer',
+  23 => 'transfer_out',
+  24 => 'transfer_record',
+  25 => 'sum_for_transfer',
+  26 => 'sum_for_admin',
+  27 => 'transfer_in_sum',
+  28 => 'transfer_out_sum',
+  29 => 'total_game_profit',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010668s ] mysql:host=127.0.0.1;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.001862s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.000866s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_game_record` [ RunTime:0.001362s ]
+[ sql ] [ SQL ] SELECT SUM(`amount`) AS tp_sum FROM `tk_game_record` [ RunTime:0.000482s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_game_tq_record` [ RunTime:0.001696s ]
+[ sql ] [ SQL ] SELECT SUM(`amount`) AS tp_sum FROM `tk_game_tq_record` [ RunTime:0.000454s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_user` [ RunTime:0.001200s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tk_user` [ RunTime:0.000454s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tk_user` WHERE  ( date_format(date , "%Y-%m-%d") = "2019-09-10" ) [ RunTime:0.000360s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_balance_record` [ RunTime:0.001220s ]
+[ sql ] [ SQL ] SELECT SUM(`balance`) AS tp_sum FROM `tk_balance_record` WHERE  `type` = 31 [ RunTime:0.000515s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_wallet_recv` [ RunTime:0.001348s ]
+[ sql ] [ SQL ] SELECT id , coin_id , sum(amount) as amount FROM `tk_wallet_recv` GROUP BY `coin_id` [ RunTime:0.000321s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_coin` [ RunTime:0.001213s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_coin` WHERE  `id` IN (1) [ RunTime:0.000478s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_transfer_out` [ RunTime:0.001117s ]
+[ sql ] [ SQL ] SELECT id , cid , sum(amount) as amount FROM `tk_transfer_out` WHERE  `status` >= 0 GROUP BY `cid` [ RunTime:0.000452s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_coin` WHERE  `id` IN (1) [ RunTime:0.000405s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_coin` WHERE  `id` IN (1,2) [ RunTime:0.000519s ]
+[ sql ] [ SQL ] SELECT SUM(`amount`) AS tp_sum FROM `tk_wallet_recv` WHERE  `coin_id` = 1 [ RunTime:0.000237s ]
+[ sql ] [ SQL ] SELECT SUM(`amount`) AS tp_sum FROM `tk_transfer_out` WHERE  `cid` = 1  AND `status` >= 0 [ RunTime:0.000310s ]
+[ sql ] [ SQL ] SELECT SUM(`amount`) AS tp_sum FROM `tk_wallet_recv` WHERE  `coin_id` = 2 [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SELECT SUM(`amount`) AS tp_sum FROM `tk_transfer_out` WHERE  `cid` = 2  AND `status` >= 0 [ RunTime:0.000312s ]
+[ sql ] [ SQL ] SELECT SUM(`balance`) AS tp_sum FROM `tk_balance_record` WHERE  `type` = 203 [ RunTime:0.000407s ]
+[ sql ] [ SQL ] SELECT SUM(`amount`) AS tp_sum FROM `tk_wallet_recv` [ RunTime:0.000275s ]
+[ sql ] [ SQL ] SELECT SUM(`amount`) AS tp_sum FROM `tk_transfer_out` WHERE  `status` >= 0 [ RunTime:0.000240s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_game_profit_record` [ RunTime:0.001184s ]
+[ sql ] [ SQL ] SELECT SUM(`profit`) AS tp_sum FROM `tk_game_profit_record` [ RunTime:0.000335s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `route` = '/admin/statistics/indexView' LIMIT 1 [ RunTime:0.000403s ]
+---------------------------------------------------------------
+[2019-09-10T17:40:09+08:00] 127.0.0.1 GET lucky_admin.com/admin/statistics/indexView
+[运行时间：5.136881s] [吞吐率：0.19req/s] [内存消耗：4,391.63kb] [文件加载：159]
+[ info ] [ LANG ] D:\work\code\lucky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lucky_admin.com',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://lucky_admin.com/admin/index/indexView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=17ro6fu1e8molj4p1vh0b4sacu',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\lucky\application\admin\view\statistics\index.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+  18 => 'in_sum_for_game',
+  19 => 'out_sum_for_game',
+  20 => 'user_count',
+  21 => 'user_count_for_today',
+  22 => 'transfer',
+  23 => 'transfer_out',
+  24 => 'transfer_record',
+  25 => 'sum_for_transfer',
+  26 => 'sum_for_admin',
+  27 => 'transfer_in_sum',
+  28 => 'transfer_out_sum',
+  29 => 'total_game_profit',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.255064s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=token_lucky;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_route` [ RunTime:0.165692s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.167445s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_game_record` [ RunTime:0.164129s ]
+[ sql ] [ SQL ] SELECT SUM(`amount`) AS tp_sum FROM `tk_game_record` [ RunTime:0.164501s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_game_tq_record` [ RunTime:0.168515s ]
+[ sql ] [ SQL ] SELECT SUM(`amount`) AS tp_sum FROM `tk_game_tq_record` [ RunTime:0.165243s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_user` [ RunTime:0.165905s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tk_user` [ RunTime:0.165450s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tk_user` WHERE  ( date_format(date , "%Y-%m-%d") = "2019-09-10" ) [ RunTime:0.161523s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_balance_record` [ RunTime:0.164833s ]
+[ sql ] [ SQL ] SELECT SUM(`balance`) AS tp_sum FROM `tk_balance_record` WHERE  `type` = 31 [ RunTime:0.163992s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_wallet_recv` [ RunTime:0.164772s ]
+[ sql ] [ SQL ] SELECT id , coin_id , sum(amount) as amount FROM `tk_wallet_recv` GROUP BY `coin_id` [ RunTime:0.164251s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_coin` [ RunTime:0.167499s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_coin` WHERE  `id` IN (1,3,4) [ RunTime:0.165146s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_transfer_out` [ RunTime:0.166426s ]
+[ sql ] [ SQL ] SELECT id , cid , sum(amount) as amount FROM `tk_transfer_out` WHERE  `status` >= 0 GROUP BY `cid` [ RunTime:0.163116s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_coin` WHERE  `id` IN (1) [ RunTime:0.167821s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_coin` WHERE  `id` IN (1,2) [ RunTime:0.168940s ]
+[ sql ] [ SQL ] SELECT SUM(`amount`) AS tp_sum FROM `tk_wallet_recv` WHERE  `coin_id` = 1 [ RunTime:0.162987s ]
+[ sql ] [ SQL ] SELECT SUM(`amount`) AS tp_sum FROM `tk_transfer_out` WHERE  `cid` = 1  AND `status` >= 0 [ RunTime:0.171705s ]
+[ sql ] [ SQL ] SELECT SUM(`amount`) AS tp_sum FROM `tk_wallet_recv` WHERE  `coin_id` = 2 [ RunTime:0.161657s ]
+[ sql ] [ SQL ] SELECT SUM(`amount`) AS tp_sum FROM `tk_transfer_out` WHERE  `cid` = 2  AND `status` >= 0 [ RunTime:0.167235s ]
+[ sql ] [ SQL ] SELECT SUM(`balance`) AS tp_sum FROM `tk_balance_record` WHERE  `type` = 203 [ RunTime:0.165451s ]
+[ sql ] [ SQL ] SELECT SUM(`amount`) AS tp_sum FROM `tk_wallet_recv` [ RunTime:0.163013s ]
+[ sql ] [ SQL ] SELECT SUM(`amount`) AS tp_sum FROM `tk_transfer_out` WHERE  `status` >= 0 [ RunTime:0.164334s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_game_profit_record` [ RunTime:0.165261s ]
+[ sql ] [ SQL ] SELECT SUM(`profit`) AS tp_sum FROM `tk_game_profit_record` [ RunTime:0.162623s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_route` WHERE  `route` = '/admin/statistics/indexView' LIMIT 1 [ RunTime:0.161449s ]

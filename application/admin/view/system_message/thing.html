@@ -1,0 +1,81 @@
+{extend name='public/base' /}
+
+{block name='link'}
+<link rel="stylesheet" href="{$public_url}/css/thing.css?version={$version}">
+<link rel="stylesheet" href="{$public_url}/css/wang-editor.css?version={$version}">
+<link rel="stylesheet" href="{$plugin_url}/wang-editor/release/wangEditor.css?version={$version}">
+<link rel="stylesheet" href="{$ctrl_res_url}/css/thing.css?version={$version}">
+{/block}
+
+{block name='body'}
+<!--<form class="layui-form layui-form-pane" method="post" id="form">-->
+<form class="layui-form" id="form">
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">标题<b class="font-red">*</b></label>
+        <div class="layui-input-block">
+            <input type="text" name="title" required="required" value="{$thing->title ?? ''}" required="required" lay-verify="required" class="layui-input">
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">uid</label>
+        <div class="layui-input-block">
+            <input type="number" name="uid" value="{$thing->uid ?? ''}" class="layui-input">
+            如果是系统消息可以不用填写；如果是其他类型的消息则必须填写。
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">类型</label>
+        <div class="layui-input-block">
+            <select name="type">
+                {foreach $type as $v}
+                <option value="{$v->type}">{$v->name}</option>
+                {/foreach}
+            </select>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">封面</label>
+        <div class="layui-input-block">
+            <div class="line">
+                <button type="button" class="layui-btn" id="image">
+                    <i class="layui-icon">&#xe67c;</i>图标
+                </button>
+            </div>
+            <div class="line" id="image-preview">
+                <img src="{$thing->img_explain ?? ''}" class="image">
+            </div>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">内容</label>
+        <div class="layui-input-block">
+            <div id="editor" class="wang-editor" data-content="{$thing->content ?? ''}"></div>
+        </div>
+    </div>
+
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">创建时间</label>
+        <div class="layui-input-block">
+            <input type="text" name="date" readonly="readonly" value="{$thing->date ?? ''}" class="layui-input" id="datetime">
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <div class="layui-input-block">
+            <button class="layui-btn" lay-submit="submit" lay-filter="form">立即提交</button>
+        </div>
+    </div>
+
+</form>
+{/block}
+
+{block name='script'}
+<script src="{$plugin_url}/wang-editor/release/wangEditor.js?version={$version}"></script>
+<script src="{$ctrl_res_url}/js/thing.js?version={$version}"></script>
+{/block}

@@ -1,0 +1,29 @@
+body {
+    padding: 20px;
+}
+
+.layui-body .layui-table-cell {
+    height: auto;
+    white-space: normal;
+}
+
+.layui-body .layui-table-cell .image {
+    max-height: 100px;
+}
+
+/**
+ * ***************
+ * 快捷样式
+ * ***************
+ */
+.font-gray {
+    color: #999;
+}
+
+.font-red {
+    color: red;
+}
+
+.font-green {
+    color: green;
+}

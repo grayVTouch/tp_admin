@@ -1,0 +1,43 @@
+{extend name='public/base' /}
+
+{block name='link'}
+<link rel="stylesheet" href="{$public_url}/css/list.css?version={$version}">
+{/block}
+
+{block name='body'}
+<!-- 标题 -->
+<div class="filter-option">
+    <form class="layui-form layui-form-pane" id="search">
+
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label">ID</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="id" class="layui-input">
+                </div>
+            </div>
+            <div class="layui-inline">
+                <button class="layui-btn" type="submit" lay-submit lay-filter="search">查询</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+<div class="operation">
+    <!--<button class="layui-btn" data-href="{$ctrl_url}/addView?mode=add" id="add"><i class="layui-icon">&#xe654;</i>添加</button>-->
+    <button class="layui-btn" id="delete-selected"><i class="layui-icon">&#xe640;</i>删除选中项</button>
+</div>
+
+<!-- 列表 -->
+<div class="list">
+    <table class="layui-hide" id="list" lay-filter="table"></table>
+</div>
+{/block}
+
+{block name='script'}
+<script type="text/html" id="operation">
+    <!--<div class="line"><a class="layui-btn layui-btn-xs" lay-event="edit"><i class="layui-icon">&#xe642;</i>编辑</a></div>-->
+    <a class="layui-btn layui-btn-xs layui-btn-danger" lay-event="del"><i class="layui-icon">&#xe640;</i>删除</a>
+</script>
+<script src="{$ctrl_res_url}/js/list.js?version={$version}"></script>
+{/block}

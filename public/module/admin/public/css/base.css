@@ -1,0 +1,98 @@
+.layui-body {
+    padding: 0 20px;
+}
+
+.layui-body > .header {
+    height: 60px;
+    line-height: 60px;
+}
+
+.layui-body > .header:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.layui-body > .header > * {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+
+.layui-body > .header > .left {
+    float: left;
+}
+
+.layui-body > .header > .left .cn {
+    font-size: 20px;
+}
+
+.layui-body > .header > .right {
+    float: right;
+}
+
+.layui-body > .header > *:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.layui-body > .header > * > * {
+    float: left;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+
+/*.layui-body .layui-table-cell {*/
+    /*height: auto;*/
+    /*white-space: normal;*/
+/*}*/
+
+.layui-body .layui-table-cell {
+    height: auto;
+}
+
+.layui-body .layui-table-cell .image {
+    max-height: 100px;
+}
+
+/**
+ * ***************
+ * 快捷样式
+ * ***************
+ */
+.font-gray {
+    color: #999;
+}
+
+.font-red {
+    color: red;
+}
+
+.font-green {
+    color: green;
+}
+
+/**
+ * *****************
+ * layui 表单
+ * *****************
+ */
+.layui-form .layui-form-item > .layui-run-text {
+    position: absolute;
+}
+
+.layui-form .layui-form-item > .layui-run-text-middle {
+    left: 0;
+    top: 50%;
+    transform: translate3d(0% , -50% , 0);
+    -webkit-transform: translate3d(0% , -50% , 0);
+    -moz-transform: translate3d(0% , -50% , 0);
+    -ms-transform: translate3d(0% , -50% , 0);
+    -o-transform: translate3d(0% , -50% , 0);
+}

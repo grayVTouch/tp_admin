@@ -1,0 +1,28 @@
+/*.content > * {*/
+    /*margin-bottom: 12px;*/
+/*}*/
+
+/*.content > *:nth-last-of-type(1) {*/
+    /*margin-bottom: 0;*/
+/*}*/
+
+/**
+ * *****************
+ * 筛选
+ * *****************
+ */
+.filter-option {
+
+}
+
+.filter-option .option {
+    display: inline-block;
+}
+
+.filter-option .option > * {
+    display: inline-block;
+}
+
+.filter-option .option .field {
+    max-width: 160px;
+}

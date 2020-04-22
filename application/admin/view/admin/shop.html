@@ -1,0 +1,66 @@
+{extend name='public/base' /}
+
+{block name='link'}
+<link rel="stylesheet" href="{$public_url}/css/list.css?version={$version}">
+{/block}
+
+{block name='body'}
+<form class="layui-form" id="form">
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">店铺名称</label>
+        <div class="layui-input-block">
+            <input type="text" name="name" value="{$shop->name ?? ''}" lay-verify="required" class="layui-input">
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">店铺图标</label>
+        <div class="layui-input-block">
+            <div class="line">
+                <button type="button" class="layui-btn" id="image">
+                    <i class="layui-icon">&#xe67c;</i>图标
+                </button>
+            </div>
+            <div class="line" id="image-preview">
+                <img src="{$shop->pic_explain ?? ''}" class="image">
+            </div>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">店铺介绍</label>
+        <div class="layui-input-block">
+            <input type="text" name="introduction" value="{$shop->introduction ?? ''}" lay-verify="required" class="layui-input">
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">客服id</label>
+        <div class="layui-input-block">
+            <input type="text" name="kf_uid" value="{$shop->kf_uid ?? ''}" lay-verify="required" class="layui-input">
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">商品审核</label>
+        <div class="layui-input-block">{{ $shop->type_explain }}</div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">店铺状态</label>
+        <div class="layui-input-block">{{ $shop->status_explain }}</div>
+    </div>
+
+    <div class="layui-form-item">
+        <div class="layui-input-block">
+            <button class="layui-btn" lay-submit="submit" lay-filter="form">立即提交</button>
+        </div>
+    </div>
+</form>
+
+{/block}
+
+{block name='script'}
+<script src="{$ctrl_res_url}/js/shop.js?version={$version}"></script>
+{/block}

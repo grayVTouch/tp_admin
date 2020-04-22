@@ -1,0 +1,123 @@
+.w-200 {
+    width: 200px;
+}
+
+.w-300 {
+    width: 300px;
+}
+
+.w-60 {
+    width: 60px;
+}
+
+.input-table {
+    width: 100%;
+}
+
+.input-table tbody tr td {
+    padding: 5px 0;
+}
+
+.input-table tbody tr:nth-of-type(1) {
+    padding-top: 0;
+}
+
+.input-table tbody tr td:nth-last-of-type(1) {
+    padding-bottom: 0;
+}
+
+.input-table tbody tr td:nth-of-type(1) {
+    width: 150px;
+}
+
+.input-table tbody tr td .must {
+    color: red;
+}
+
+.input-table tbody tr td .tip {
+    color: #999;
+    font-size: 12px;
+}
+
+.input-table tbody tr td .error {
+    color: red;
+}
+
+.i-view-form .submit {
+    margin-top: 20px;
+}
+
+/**
+ * *************
+ * 线性表格
+ * *************
+ */
+.line-table {
+    width: 100%;
+    border: none;
+}
+
+.line-table th , .line-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* 图片上传 */
+.i-view-upload-container {
+
+}
+
+.i-view-upload-container .preview {
+    display: inline-block;
+}
+
+.i-view-upload-container .preview .item {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    overflow: hidden;
+    background: #fff;
+    position: relative;
+    box-shadow: 0 1px 1px rgba(0,0,0,.2);
+    margin-right: 4px;
+}
+
+.i-view-upload-container .preview .item .image {
+    width: 100%;
+    height: 100%;
+}
+
+.i-view-upload-container .preview .item .cover {
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,.6);
+}
+.i-view-upload-container .preview .item:hover .cover {
+    display: block;
+}
+
+.i-view-upload-container .preview .item .cover i {
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0 2px;
+}
+
+.i-view-upload-container .i-view-file-upload {
+    width: 60px;
+    display: inline-block;
+}
+
+.i-view-upload-container .i-view-file-upload .icon {
+    width: 58px;
+    height:58px;
+    line-height: 58px;
+}

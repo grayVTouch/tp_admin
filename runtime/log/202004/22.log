@@ -1,0 +1,3123 @@
+---------------------------------------------------------------
+[2020-04-22T10:00:43+08:00] 127.0.0.1 GET shop.nesm.com/admin/test/test
+[运行时间：0.104744s] [吞吐率：9.55req/s] [内存消耗：2,002.84kb] [文件加载：122]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=794123264; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-22T10:00:43+08:00] 127.0.0.1 GET shop.nesm.com/admin/test/test
+[运行时间：0.080202s] [吞吐率：12.47req/s] [内存消耗：2,001.48kb] [文件加载：122]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=794123264; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-22T10:00:46+08:00] 127.0.0.1 GET shop.nesm.com/
+[运行时间：0.068080s] [吞吐率：14.69req/s] [内存消耗：1,834.03kb] [文件加载：116]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-22T10:00:46+08:00] 127.0.0.1 GET shop.nesm.com/admin/index/indexView
+[运行时间：0.070836s] [吞吐率：14.12req/s] [内存消耗：2,035.31kb] [文件加载：125]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-22T10:00:47+08:00] 127.0.0.1 GET shop.nesm.com/admin/login/loginView
+[运行时间：0.953984s] [吞吐率：1.05req/s] [内存消耗：3,457.80kb] [文件加载：141]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\nesm_shop\application\admin\view\login\login.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.430064s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=mchat_gamming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cq_route` [ RunTime:0.217480s ]
+[ sql ] [ SQL ] SELECT * FROM `cq_route` WHERE  `route` = '/admin/login/loginView' LIMIT 1 [ RunTime:0.216507s ]
+---------------------------------------------------------------
+[2020-04-22T10:00:48+08:00] 127.0.0.1 GET shop.nesm.com/admin/login/loginView
+[运行时间：0.927602s] [吞吐率：1.08req/s] [内存消耗：3,313.55kb] [文件加载：139]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\nesm_shop\application\admin\view\login\login.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.391715s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=mchat_gamming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cq_route` [ RunTime:0.214331s ]
+[ sql ] [ SQL ] SELECT * FROM `cq_route` WHERE  `route` = '/admin/login/loginView' LIMIT 1 [ RunTime:0.214380s ]
+---------------------------------------------------------------
+[2020-04-22T10:01:01+08:00] 127.0.0.1 POST shop.nesm.com/admin/login/login
+[运行时间：1.752854s] [吞吐率：0.57req/s] [内存消耗：3,611.74kb] [文件加载：148]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'content-length' => '30',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://shop.nesm.com',
+  'referer' => 'http://shop.nesm.com/admin/login/loginView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.370582s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=mchat_gamming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cq_administrator` [ RunTime:0.210393s ]
+[ sql ] [ SQL ] SELECT * FROM `cq_administrator` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.212365s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cq_role` [ RunTime:0.215862s ]
+[ sql ] [ SQL ] SELECT * FROM `cq_role` WHERE  `id` = 5 [ RunTime:0.212004s ]
+[ sql ] [ SQL ] UPDATE `cq_administrator`  SET `last_ip` = '127.0.0.1' , `last_time` = '2020-04-22 10:01:01' , `number` = 184  WHERE  `id` = 1 [ RunTime:0.213991s ]
+---------------------------------------------------------------
+[2020-04-22T10:01:02+08:00] 127.0.0.1 GET shop.nesm.com/admin/index/indexView
+[运行时间：1.187948s] [吞吐率：0.84req/s] [内存消耗：3,857.97kb] [文件加载：147]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://shop.nesm.com/admin/login/loginView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\nesm_shop\application\admin\view\index\index.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.367459s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=mchat_gamming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cq_route` [ RunTime:0.205719s ]
+[ sql ] [ SQL ] SELECT * FROM `cq_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.205876s ]
+[ sql ] [ SQL ] SELECT * FROM `cq_route` WHERE  `route` = '/admin/index/indexView' LIMIT 1 [ RunTime:0.205362s ]
+---------------------------------------------------------------
+[2020-04-22T10:01:05+08:00] 127.0.0.1 GET shop.nesm.com/admin/index/indexView
+[运行时间：1.385067s] [吞吐率：0.72req/s] [内存消耗：3,760.91kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\nesm_shop\application\admin\view\index\index.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.382569s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=mchat_gamming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cq_route` [ RunTime:0.217566s ]
+[ sql ] [ SQL ] SELECT * FROM `cq_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.219430s ]
+[ sql ] [ SQL ] SELECT * FROM `cq_route` WHERE  `route` = '/admin/index/indexView' LIMIT 1 [ RunTime:0.217380s ]
+---------------------------------------------------------------
+[2020-04-22T10:05:45+08:00] 127.0.0.1 GET shop.nesm.com/admin/community_announce/listView
+[运行时间：1.156326s] [吞吐率：0.86req/s] [内存消耗：3,938.03kb] [文件加载：147]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://shop.nesm.com/admin/index/indexView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\nesm_shop\application\admin\view\community_announce\list.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.378588s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=mchat_gamming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cq_route` [ RunTime:0.215899s ]
+[ sql ] [ SQL ] SELECT * FROM `cq_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.215533s ]
+[ sql ] [ SQL ] SELECT * FROM `cq_route` WHERE  `route` = '/admin/community_announce/listView' LIMIT 1 [ RunTime:0.215499s ]
+---------------------------------------------------------------
+[2020-04-22T10:05:47+08:00] 127.0.0.1 GET shop.nesm.com/admin/community_slideshow/listView
+[运行时间：1.144481s] [吞吐率：0.87req/s] [内存消耗：3,936.88kb] [文件加载：147]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://shop.nesm.com/admin/community_announce/listView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\nesm_shop\application\admin\view\community_slideshow\list.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.395863s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=mchat_gamming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cq_route` [ RunTime:0.214529s ]
+[ sql ] [ SQL ] SELECT * FROM `cq_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.217301s ]
+[ sql ] [ SQL ] SELECT * FROM `cq_route` WHERE  `route` = '/admin/community_slideshow/listView' LIMIT 1 [ RunTime:0.216909s ]
+---------------------------------------------------------------
+[2020-04-22T10:05:48+08:00] 127.0.0.1 POST shop.nesm.com/admin/community_slideshow/list
+[运行时间：1.563898s] [吞吐率：0.64req/s] [内存消耗：3,733.45kb] [文件加载：148]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'content-length' => '15',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://shop.nesm.com',
+  'referer' => 'http://shop.nesm.com/admin/community_slideshow/listView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.368932s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=mchat_gamming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cq_route` [ RunTime:0.212620s ]
+[ sql ] [ SQL ] SELECT * FROM `cq_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.212201s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_community_slideshow` [ RunTime:0.225206s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tk_community_slideshow` [ RunTime:0.211846s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_community_slideshow` ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.213575s ]
+---------------------------------------------------------------
+[2020-04-22T10:05:49+08:00] 127.0.0.1 GET shop.nesm.com/admin/community_slideshow/listView
+[运行时间：2.489647s] [吞吐率：0.40req/s] [内存消耗：3,772.17kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\nesm_shop\application\admin\view\community_slideshow\list.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.380539s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=mchat_gamming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cq_route` [ RunTime:0.206704s ]
+[ sql ] [ SQL ] SELECT * FROM `cq_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.212936s ]
+[ sql ] [ SQL ] SELECT * FROM `cq_route` WHERE  `route` = '/admin/community_slideshow/listView' LIMIT 1 [ RunTime:0.206307s ]
+---------------------------------------------------------------
+[2020-04-22T10:05:50+08:00] 127.0.0.1 GET shop.nesm.com/admin/community/listView
+[运行时间：2.546374s] [吞吐率：0.39req/s] [内存消耗：3,940.98kb] [文件加载：147]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://shop.nesm.com/admin/community_slideshow/listView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\nesm_shop\application\admin\view\community\list.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.370479s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=mchat_gamming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cq_route` [ RunTime:0.255306s ]
+[ sql ] [ SQL ] SELECT * FROM `cq_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.260073s ]
+[ sql ] [ SQL ] SELECT * FROM `cq_route` WHERE  `route` = '/admin/community/listView' LIMIT 1 [ RunTime:0.258883s ]
+---------------------------------------------------------------
+[2020-04-22T10:05:52+08:00] 127.0.0.1 POST shop.nesm.com/admin/community/list
+[运行时间：1.725754s] [吞吐率：0.58req/s] [内存消耗：3,747.88kb] [文件加载：148]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'content-length' => '14',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://shop.nesm.com',
+  'referer' => 'http://shop.nesm.com/admin/community/listView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '4',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.458485s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=mchat_gamming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cq_route` [ RunTime:0.254753s ]
+[ sql ] [ SQL ] SELECT * FROM `cq_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.254090s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tk_community` [ RunTime:0.206639s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tk_community` [ RunTime:0.206366s ]
+[ sql ] [ SQL ] SELECT * FROM `tk_community` ORDER BY `id` ASC LIMIT 0,4 [ RunTime:0.206673s ]
+---------------------------------------------------------------
+[2020-04-22T10:05:53+08:00] 127.0.0.1 GET shop.nesm.com/admin/community/listView
+[运行时间：2.697053s] [吞吐率：0.37req/s] [内存消耗：3,776.26kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\nesm_shop\application\admin\view\community\list.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.390713s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=mchat_gamming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cq_route` [ RunTime:0.213910s ]
+[ sql ] [ SQL ] SELECT * FROM `cq_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.213310s ]
+[ sql ] [ SQL ] SELECT * FROM `cq_route` WHERE  `route` = '/admin/community/listView' LIMIT 1 [ RunTime:0.212193s ]
+---------------------------------------------------------------
+[2020-04-22T10:10:30+08:00] 127.0.0.1 GET shop.nesm.com/admin/community/listView
+[运行时间：1.144130s] [吞吐率：0.87req/s] [内存消耗：3,777.51kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://shop.nesm.com/admin/community_slideshow/listView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\nesm_shop\application\admin\view\community\list.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.378544s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_route` [ RunTime:0.217115s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.217612s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `route` = '/admin/community/listView' LIMIT 1 [ RunTime:0.215963s ]
+---------------------------------------------------------------
+[2020-04-22T10:10:31+08:00] 127.0.0.1 POST shop.nesm.com/admin/community/list
+[运行时间：1.128020s] [吞吐率：0.89req/s] [内存消耗：3,754.82kb] [文件加载：152]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'content-length' => '14',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://shop.nesm.com',
+  'referer' => 'http://shop.nesm.com/admin/community/listView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '4',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.391382s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_route` [ RunTime:0.208020s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.209805s ]
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'shop.tk_community' doesn't exist[D:\work\code\nesm_shop\thinkphp\library\think\db\Connection.php:687]
+---------------------------------------------------------------
+[2020-04-22T10:10:32+08:00] 127.0.0.1 GET shop.nesm.com/admin/community/listView
+[运行时间：2.091427s] [吞吐率：0.48req/s] [内存消耗：3,776.05kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\nesm_shop\application\admin\view\community\list.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.396363s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_route` [ RunTime:0.218173s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.218440s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `route` = '/admin/community/listView' LIMIT 1 [ RunTime:0.218647s ]
+---------------------------------------------------------------
+[2020-04-22T10:10:34+08:00] 127.0.0.1 GET shop.nesm.com/admin/index/indexView
+[运行时间：1.093531s] [吞吐率：0.91req/s] [内存消耗：3,761.84kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://shop.nesm.com/admin/community/listView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\nesm_shop\application\admin\view\index\index.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.366127s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_route` [ RunTime:0.206546s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.209870s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `route` = '/admin/index/indexView' LIMIT 1 [ RunTime:0.205612s ]
+---------------------------------------------------------------
+[2020-04-22T10:10:35+08:00] 127.0.0.1 GET shop.nesm.com/admin/index/indexView
+[运行时间：1.159378s] [吞吐率：0.86req/s] [内存消耗：3,760.70kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\nesm_shop\application\admin\view\index\index.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.401129s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_route` [ RunTime:0.221508s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.221823s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `route` = '/admin/index/indexView' LIMIT 1 [ RunTime:0.220974s ]
+---------------------------------------------------------------
+[2020-04-22T10:10:37+08:00] 127.0.0.1 GET shop.nesm.com/admin/user/listView
+[运行时间：1.090601s] [吞吐率：0.92req/s] [内存消耗：3,941.97kb] [文件加载：147]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://shop.nesm.com/admin/index/indexView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\nesm_shop\application\admin\view\user\list.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.363788s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_route` [ RunTime:0.206598s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.206655s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `route` = '/admin/user/listView' LIMIT 1 [ RunTime:0.206610s ]
+---------------------------------------------------------------
+[2020-04-22T10:10:38+08:00] 127.0.0.1 POST shop.nesm.com/admin/user/list
+[运行时间：1.139814s] [吞吐率：0.88req/s] [内存消耗：3,844.09kb] [文件加载：152]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'content-length' => '15',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://shop.nesm.com',
+  'referer' => 'http://shop.nesm.com/admin/user/listView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.377774s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_route` [ RunTime:0.214092s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.213122s ]
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'shop.cq_user' doesn't exist[D:\work\code\nesm_shop\thinkphp\library\think\db\Connection.php:687]
+---------------------------------------------------------------
+[2020-04-22T10:10:39+08:00] 127.0.0.1 GET shop.nesm.com/admin/user/listView
+[运行时间：2.073746s] [吞吐率：0.48req/s] [内存消耗：3,776.68kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\nesm_shop\application\admin\view\user\list.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.369796s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_route` [ RunTime:0.209117s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.208031s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `route` = '/admin/user/listView' LIMIT 1 [ RunTime:0.215381s ]
+---------------------------------------------------------------
+[2020-04-22T10:10:40+08:00] 127.0.0.1 POST shop.nesm.com/admin/admin/logout
+[运行时间：1.192579s] [吞吐率：0.84req/s] [内存消耗：3,564.45kb] [文件加载：144]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'content-length' => '0',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://shop.nesm.com',
+  'referer' => 'http://shop.nesm.com/admin/user/listView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.384197s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_route` [ RunTime:0.229037s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.233418s ]
+---------------------------------------------------------------
+[2020-04-22T10:10:40+08:00] 127.0.0.1 GET shop.nesm.com/admin/user/listView
+[运行时间：0.075102s] [吞吐率：13.32req/s] [内存消耗：2,050.31kb] [文件加载：125]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://shop.nesm.com/admin/user/listView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-22T10:10:41+08:00] 127.0.0.1 GET shop.nesm.com/admin/login/loginView
+[运行时间：0.909990s] [吞吐率：1.10req/s] [内存消耗：3,315.24kb] [文件加载：139]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://shop.nesm.com/admin/user/listView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\nesm_shop\application\admin\view\login\login.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.399236s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_route` [ RunTime:0.209958s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `route` = '/admin/login/loginView' LIMIT 1 [ RunTime:0.209699s ]
+---------------------------------------------------------------
+[2020-04-22T10:10:42+08:00] 127.0.0.1 GET shop.nesm.com/admin/login/loginView
+[运行时间：0.886267s] [吞吐率：1.13req/s] [内存消耗：3,313.78kb] [文件加载：139]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\nesm_shop\application\admin\view\login\login.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.372895s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_route` [ RunTime:0.215835s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `route` = '/admin/login/loginView' LIMIT 1 [ RunTime:0.214199s ]
+---------------------------------------------------------------
+[2020-04-22T10:16:17+08:00] 127.0.0.1 GET shop.nesm.com/admin/login/loginView
+[运行时间：0.878232s] [吞吐率：1.14req/s] [内存消耗：3,315.24kb] [文件加载：139]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://shop.nesm.com/admin/user/listView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\nesm_shop\application\admin\view\login\login.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.350342s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_route` [ RunTime:0.206686s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `route` = '/admin/login/loginView' LIMIT 1 [ RunTime:0.207008s ]
+---------------------------------------------------------------
+[2020-04-22T10:16:18+08:00] 127.0.0.1 GET shop.nesm.com/admin/login/loginView
+[运行时间：0.905887s] [吞吐率：1.10req/s] [内存消耗：3,313.78kb] [文件加载：139]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\nesm_shop\application\admin\view\login\login.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.364495s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_route` [ RunTime:0.229077s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `route` = '/admin/login/loginView' LIMIT 1 [ RunTime:0.213089s ]
+---------------------------------------------------------------
+[2020-04-22T10:16:23+08:00] 127.0.0.1 POST shop.nesm.com/admin/login/login
+[运行时间：1.097965s] [吞吐率：0.91req/s] [内存消耗：3,583.33kb] [文件加载：149]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'content-length' => '30',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://shop.nesm.com',
+  'referer' => 'http://shop.nesm.com/admin/login/loginView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.365534s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_administrator` [ RunTime:0.214432s ]
+[ sql ] [ SQL ] SELECT * FROM `run_administrator` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.206307s ]
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'shop.cq_role' doesn't exist[D:\work\code\nesm_shop\thinkphp\library\think\db\Connection.php:687]
+---------------------------------------------------------------
+[2020-04-22T10:16:30+08:00] 127.0.0.1 POST shop.nesm.com/admin/login/login
+[运行时间：1.082065s] [吞吐率：0.92req/s] [内存消耗：3,583.60kb] [文件加载：149]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'content-length' => '30',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://shop.nesm.com',
+  'referer' => 'http://shop.nesm.com/admin/login/loginView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.356212s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_administrator` [ RunTime:0.205933s ]
+[ sql ] [ SQL ] SELECT * FROM `run_administrator` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.207661s ]
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'shop.cq_role' doesn't exist[D:\work\code\nesm_shop\thinkphp\library\think\db\Connection.php:687]
+---------------------------------------------------------------
+[2020-04-22T10:16:57+08:00] 127.0.0.1 GET shop.nesm.com/admin/login/loginView
+[运行时间：0.886113s] [吞吐率：1.13req/s] [内存消耗：3,315.31kb] [文件加载：139]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://shop.nesm.com/admin/user/listView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\nesm_shop\application\admin\view\login\login.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.365098s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_route` [ RunTime:0.213813s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `route` = '/admin/login/loginView' LIMIT 1 [ RunTime:0.216018s ]
+---------------------------------------------------------------
+[2020-04-22T10:16:58+08:00] 127.0.0.1 GET shop.nesm.com/admin/login/loginView
+[运行时间：0.866051s] [吞吐率：1.15req/s] [内存消耗：3,313.78kb] [文件加载：139]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\nesm_shop\application\admin\view\login\login.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.355619s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_route` [ RunTime:0.208189s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `route` = '/admin/login/loginView' LIMIT 1 [ RunTime:0.206635s ]
+---------------------------------------------------------------
+[2020-04-22T10:17:00+08:00] 127.0.0.1 POST shop.nesm.com/admin/login/login
+[运行时间：1.605228s] [吞吐率：0.62req/s] [内存消耗：3,611.98kb] [文件加载：148]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'content-length' => '30',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://shop.nesm.com',
+  'referer' => 'http://shop.nesm.com/admin/login/loginView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.361214s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_administrator` [ RunTime:0.213249s ]
+[ sql ] [ SQL ] SELECT * FROM `run_administrator` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.217056s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_role` [ RunTime:0.212363s ]
+[ sql ] [ SQL ] SELECT * FROM `run_role` WHERE  `id` = 5 [ RunTime:0.213403s ]
+[ sql ] [ SQL ] UPDATE `run_administrator`  SET `last_ip` = '127.0.0.1' , `last_time` = '2020-04-22 10:17:00' , `number` = 184  WHERE  `id` = 1 [ RunTime:0.215079s ]
+---------------------------------------------------------------
+[2020-04-22T10:17:02+08:00] 127.0.0.1 GET shop.nesm.com/admin/index/indexView
+[运行时间：1.078575s] [吞吐率：0.93req/s] [内存消耗：3,698.34kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://shop.nesm.com/admin/login/loginView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\nesm_shop\application\admin\view\index\index.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.357736s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_route` [ RunTime:0.207287s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.207376s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `route` = '/admin/index/indexView' LIMIT 1 [ RunTime:0.205266s ]
+---------------------------------------------------------------
+[2020-04-22T10:17:03+08:00] 127.0.0.1 GET shop.nesm.com/admin/index/indexView
+[运行时间：1.122260s] [吞吐率：0.89req/s] [内存消耗：3,760.72kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\nesm_shop\application\admin\view\index\index.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.375176s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_route` [ RunTime:0.228945s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.217755s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `route` = '/admin/index/indexView' LIMIT 1 [ RunTime:0.211446s ]
+---------------------------------------------------------------
+[2020-04-22T10:17:07+08:00] 127.0.0.1 GET shop.nesm.com/admin/user/listView
+[运行时间：1.087695s] [吞吐率：0.92req/s] [内存消耗：3,778.23kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://shop.nesm.com/admin/index/indexView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\nesm_shop\application\admin\view\user\list.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.354478s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_route` [ RunTime:0.212373s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.208364s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `route` = '/admin/user/listView' LIMIT 1 [ RunTime:0.208688s ]
+---------------------------------------------------------------
+[2020-04-22T10:17:09+08:00] 127.0.0.1 POST shop.nesm.com/admin/user/list
+[运行时间：1.149207s] [吞吐率：0.87req/s] [内存消耗：3,844.50kb] [文件加载：152]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'content-length' => '15',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://shop.nesm.com',
+  'referer' => 'http://shop.nesm.com/admin/user/listView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.373347s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_route` [ RunTime:0.210705s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.213081s ]
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'shop.cq_user' doesn't exist[D:\work\code\nesm_shop\thinkphp\library\think\db\Connection.php:687]
+---------------------------------------------------------------
+[2020-04-22T10:17:10+08:00] 127.0.0.1 GET shop.nesm.com/admin/user/listView
+[运行时间：1.937039s] [吞吐率：0.52req/s] [内存消耗：3,776.70kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\nesm_shop\application\admin\view\user\list.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.365361s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_route` [ RunTime:0.214523s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.214549s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `route` = '/admin/user/listView' LIMIT 1 [ RunTime:0.213547s ]
+---------------------------------------------------------------
+[2020-04-22T10:17:57+08:00] 127.0.0.1 GET shop.nesm.com/admin/user/listView
+[运行时间：1.094733s] [吞吐率：0.91req/s] [内存消耗：3,778.23kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://shop.nesm.com/admin/index/indexView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\nesm_shop\application\admin\view\user\list.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.358498s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_route` [ RunTime:0.212302s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.212091s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `route` = '/admin/user/listView' LIMIT 1 [ RunTime:0.212442s ]
+---------------------------------------------------------------
+[2020-04-22T10:17:58+08:00] 127.0.0.1 POST shop.nesm.com/admin/user/list
+[运行时间：1.147691s] [吞吐率：0.87req/s] [内存消耗：3,844.50kb] [文件加载：152]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'content-length' => '15',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://shop.nesm.com',
+  'referer' => 'http://shop.nesm.com/admin/user/listView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.347608s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_route` [ RunTime:0.204089s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.205227s ]
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'shop.cq_user' doesn't exist[D:\work\code\nesm_shop\thinkphp\library\think\db\Connection.php:687]
+---------------------------------------------------------------
+[2020-04-22T10:17:59+08:00] 127.0.0.1 GET shop.nesm.com/admin/user/listView
+[运行时间：1.934629s] [吞吐率：0.52req/s] [内存消耗：3,776.70kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\nesm_shop\application\admin\view\user\list.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.366899s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_route` [ RunTime:0.213436s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.215453s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `route` = '/admin/user/listView' LIMIT 1 [ RunTime:0.216220s ]
+---------------------------------------------------------------
+[2020-04-22T10:30:09+08:00] 127.0.0.1 GET shop.nesm.com/admin/user/listView
+[运行时间：1.013574s] [吞吐率：0.99req/s] [内存消耗：3,715.95kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://shop.nesm.com/admin/user/listView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.419571s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_route` [ RunTime:0.244449s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.233091s ]
+---------------------------------------------------------------
+[2020-04-22T10:30:10+08:00] 127.0.0.1 GET shop.nesm.com/admin/user/listView
+[运行时间：0.887457s] [吞吐率：1.13req/s] [内存消耗：3,714.29kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.367917s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_route` [ RunTime:0.207310s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.217984s ]
+---------------------------------------------------------------
+[2020-04-22T10:30:12+08:00] 127.0.0.1 GET shop.nesm.com/admin/index/indexView
+[运行时间：1.129326s] [吞吐率：0.89req/s] [内存消耗：3,762.25kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://shop.nesm.com/admin/login/loginView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\nesm_shop\application\admin\view\index\index.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.381413s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_route` [ RunTime:0.210353s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.209692s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `route` = '/admin/index/indexView' LIMIT 1 [ RunTime:0.229512s ]
+---------------------------------------------------------------
+[2020-04-22T10:30:14+08:00] 127.0.0.1 GET shop.nesm.com/admin/index/indexView
+[运行时间：1.205686s] [吞吐率：0.83req/s] [内存消耗：3,760.72kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\nesm_shop\application\admin\view\index\index.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.387646s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_route` [ RunTime:0.237200s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.232705s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `route` = '/admin/index/indexView' LIMIT 1 [ RunTime:0.223504s ]
+---------------------------------------------------------------
+[2020-04-22T10:30:15+08:00] 127.0.0.1 GET shop.nesm.com/admin/user/shopView
+[运行时间：0.922187s] [吞吐率：1.08req/s] [内存消耗：3,715.95kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://shop.nesm.com/admin/index/indexView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.376515s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_route` [ RunTime:0.238374s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.208436s ]
+---------------------------------------------------------------
+[2020-04-22T10:30:17+08:00] 127.0.0.1 GET shop.nesm.com/admin/user/shopView
+[运行时间：0.952833s] [吞吐率：1.05req/s] [内存消耗：3,714.29kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.392126s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_route` [ RunTime:0.240996s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.228106s ]
+---------------------------------------------------------------
+[2020-04-22T10:31:09+08:00] 127.0.0.1 GET shop.nesm.com/admin/user/shopView
+[运行时间：1.071110s] [吞吐率：0.93req/s] [内存消耗：3,816.80kb] [文件加载：148]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.350729s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_route` [ RunTime:0.209830s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.208080s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `route` = '/admin/user/shopView' LIMIT 1 [ RunTime:0.207852s ]
+[ error ] [0]模板文件不存在:D:\work\code\nesm_shop\application\admin\view\user\shop.html[D:\work\code\nesm_shop\thinkphp\library\think\view\driver\Think.php:86]
+---------------------------------------------------------------
+[2020-04-22T10:31:10+08:00] 127.0.0.1 GET shop.nesm.com/admin/user/shopView
+[运行时间：1.095399s] [吞吐率：0.91req/s] [内存消耗：3,815.38kb] [文件加载：148]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.359847s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_route` [ RunTime:0.213567s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.212498s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `route` = '/admin/user/shopView' LIMIT 1 [ RunTime:0.212824s ]
+[ error ] [0]模板文件不存在:D:\work\code\nesm_shop\application\admin\view\user\shop.html[D:\work\code\nesm_shop\thinkphp\library\think\view\driver\Think.php:86]
+---------------------------------------------------------------
+[2020-04-22T10:33:04+08:00] 127.0.0.1 GET shop.nesm.com/admin/user/shopView
+[运行时间：1.123042s] [吞吐率：0.89req/s] [内存消耗：3,939.95kb] [文件加载：147]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\nesm_shop\application\admin\view\user\shop.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.358234s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_route` [ RunTime:0.211832s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.212782s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `route` = '/admin/user/shopView' LIMIT 1 [ RunTime:0.211618s ]
+---------------------------------------------------------------
+[2020-04-22T10:33:06+08:00] 127.0.0.1 GET shop.nesm.com/admin/user/shopView
+[运行时间：1.128189s] [吞吐率：0.89req/s] [内存消耗：3,775.63kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\nesm_shop\application\admin\view\user\shop.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.365204s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_route` [ RunTime:0.214967s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.218844s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `route` = '/admin/user/shopView' LIMIT 1 [ RunTime:0.213481s ]
+---------------------------------------------------------------
+[2020-04-22T10:34:40+08:00] 127.0.0.1 GET shop.nesm.com/admin/user/shopView
+[运行时间：1.144930s] [吞吐率：0.87req/s] [内存消耗：3,719.07kb] [文件加载：147]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\nesm_shop\application\admin\view\user\shop.html [ array (
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.366268s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_route` [ RunTime:0.211506s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.216417s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `route` = '/admin/user/shopView' LIMIT 1 [ RunTime:0.232934s ]
+[ error ] [8]未定义变量: top[D:\work\code\nesm_shop\runtime\temp\5ba203eb5579379eb945241d0dd1a98c.php:6]
+---------------------------------------------------------------
+[2020-04-22T10:34:41+08:00] 127.0.0.1 GET shop.nesm.com/admin/user/shopView
+[运行时间：1.089210s] [吞吐率：0.92req/s] [内存消耗：3,717.72kb] [文件加载：147]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\nesm_shop\application\admin\view\user\shop.html [ array (
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.370360s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_route` [ RunTime:0.207144s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.206547s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `route` = '/admin/user/shopView' LIMIT 1 [ RunTime:0.206717s ]
+[ error ] [8]未定义变量: top[D:\work\code\nesm_shop\runtime\temp\5ba203eb5579379eb945241d0dd1a98c.php:6]
+---------------------------------------------------------------
+[2020-04-22T10:34:44+08:00] 127.0.0.1 GET shop.nesm.com/admin/shop/shopView
+[运行时间：1.100823s] [吞吐率：0.91req/s] [内存消耗：3,939.24kb] [文件加载：147]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\nesm_shop\application\admin\view\shop\shop.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.359617s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_route` [ RunTime:0.212511s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.214225s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `route` = '/admin/shop/shopView' LIMIT 1 [ RunTime:0.215350s ]
+---------------------------------------------------------------
+[2020-04-22T10:34:46+08:00] 127.0.0.1 GET shop.nesm.com/admin/shop/shopView
+[运行时间：1.096976s] [吞吐率：0.91req/s] [内存消耗：3,775.63kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\nesm_shop\application\admin\view\shop\shop.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.359817s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_route` [ RunTime:0.208770s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.211348s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `route` = '/admin/shop/shopView' LIMIT 1 [ RunTime:0.209431s ]
+---------------------------------------------------------------
+[2020-04-22T10:40:33+08:00] 127.0.0.1 GET shop.nesm.com/admin/shop/shopView
+[运行时间：1.135822s] [吞吐率：0.88req/s] [内存消耗：3,776.73kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\nesm_shop\application\admin\view\shop\shop.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.378160s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_route` [ RunTime:0.212716s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.213753s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `route` = '/admin/shop/shopView' LIMIT 1 [ RunTime:0.212771s ]
+---------------------------------------------------------------
+[2020-04-22T10:40:35+08:00] 127.0.0.1 GET shop.nesm.com/admin/shop/shopView
+[运行时间：1.093634s] [吞吐率：0.91req/s] [内存消耗：3,775.63kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\nesm_shop\application\admin\view\shop\shop.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.365630s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_route` [ RunTime:0.212770s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.212874s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `route` = '/admin/shop/shopView' LIMIT 1 [ RunTime:0.213345s ]
+---------------------------------------------------------------
+[2020-04-22T10:42:27+08:00] 127.0.0.1 GET shop.nesm.com/admin/shop/shopView
+[运行时间：1.108336s] [吞吐率：0.90req/s] [内存消耗：3,776.73kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\nesm_shop\application\admin\view\shop\shop.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.364133s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_route` [ RunTime:0.212885s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.214070s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `route` = '/admin/shop/shopView' LIMIT 1 [ RunTime:0.213088s ]
+---------------------------------------------------------------
+[2020-04-22T10:42:29+08:00] 127.0.0.1 GET shop.nesm.com/admin/shop/shopView
+[运行时间：1.079120s] [吞吐率：0.93req/s] [内存消耗：3,775.63kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\nesm_shop\application\admin\view\shop\shop.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.354632s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_route` [ RunTime:0.213014s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.208463s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `route` = '/admin/shop/shopView' LIMIT 1 [ RunTime:0.211488s ]
+---------------------------------------------------------------
+[2020-04-22T10:48:42+08:00] 127.0.0.1 GET shop.nesm.com/admin/shop/shopView
+[运行时间：1.090703s] [吞吐率：0.92req/s] [内存消耗：3,778.18kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\nesm_shop\application\admin\view\shop\shop.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+  18 => 'shop_goods_auth',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.353508s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_route` [ RunTime:0.210875s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.206954s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `route` = '/admin/shop/shopView' LIMIT 1 [ RunTime:0.207055s ]
+---------------------------------------------------------------
+[2020-04-22T10:48:45+08:00] 127.0.0.1 GET shop.nesm.com/admin/shop/shopView
+[运行时间：1.119675s] [吞吐率：0.89req/s] [内存消耗：3,777.08kb] [文件加载：145]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\nesm_shop\application\admin\view\shop\shop.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+  18 => 'shop_goods_auth',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.362616s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_route` [ RunTime:0.224453s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.222971s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `route` = '/admin/shop/shopView' LIMIT 1 [ RunTime:0.211979s ]
+---------------------------------------------------------------
+[2020-04-22T11:13:08+08:00] 127.0.0.1 POST shop.nesm.com/admin/admin/logout
+[运行时间：0.918799s] [吞吐率：1.09req/s] [内存消耗：3,564.95kb] [文件加载：144]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'content-length' => '0',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://shop.nesm.com',
+  'referer' => 'http://shop.nesm.com/admin/shop/shopView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.357746s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_route` [ RunTime:0.213103s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.214715s ]
+---------------------------------------------------------------
+[2020-04-22T11:13:09+08:00] 127.0.0.1 GET shop.nesm.com/admin/shop/shopView
+[运行时间：0.070768s] [吞吐率：14.13req/s] [内存消耗：2,051.35kb] [文件加载：125]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://shop.nesm.com/admin/shop/shopView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-22T11:13:10+08:00] 127.0.0.1 GET shop.nesm.com/admin/login/loginView
+[运行时间：0.900728s] [吞吐率：1.11req/s] [内存消耗：3,315.74kb] [文件加载：139]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://shop.nesm.com/admin/shop/shopView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\nesm_shop\application\admin\view\login\login.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.369636s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_route` [ RunTime:0.209096s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `route` = '/admin/login/loginView' LIMIT 1 [ RunTime:0.226687s ]
+---------------------------------------------------------------
+[2020-04-22T11:13:11+08:00] 127.0.0.1 GET shop.nesm.com/admin/login/loginView
+[运行时间：0.889578s] [吞吐率：1.12req/s] [内存消耗：3,314.28kb] [文件加载：139]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\nesm_shop\application\admin\view\login\login.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.375860s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_route` [ RunTime:0.217057s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `route` = '/admin/login/loginView' LIMIT 1 [ RunTime:0.213135s ]
+---------------------------------------------------------------
+[2020-04-22T11:13:12+08:00] 127.0.0.1 GET shop.nesm.com/admin/login/loginView
+[运行时间：0.888570s] [吞吐率：1.13req/s] [内存消耗：3,315.74kb] [文件加载：139]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://shop.nesm.com/admin/shop/shopView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\nesm_shop\application\admin\view\login\login.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.371856s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_route` [ RunTime:0.215896s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `route` = '/admin/login/loginView' LIMIT 1 [ RunTime:0.212820s ]
+---------------------------------------------------------------
+[2020-04-22T11:13:13+08:00] 127.0.0.1 GET shop.nesm.com/admin/login/loginView
+[运行时间：0.862623s] [吞吐率：1.16req/s] [内存消耗：3,314.28kb] [文件加载：139]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\nesm_shop\application\admin\view\login\login.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.345986s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_route` [ RunTime:0.208027s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `route` = '/admin/login/loginView' LIMIT 1 [ RunTime:0.209951s ]
+---------------------------------------------------------------
+[2020-04-22T11:13:18+08:00] 127.0.0.1 POST shop.nesm.com/admin/login/login
+[运行时间：0.855239s] [吞吐率：1.17req/s] [内存消耗：3,590.14kb] [文件加载：144]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'content-length' => '29',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://shop.nesm.com',
+  'referer' => 'http://shop.nesm.com/admin/login/loginView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'fafa',
+  'password' => 'fsdfsd',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.342988s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user` [ RunTime:0.205986s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user` WHERE  `username` = 'fafa' LIMIT 1 [ RunTime:0.206808s ]
+---------------------------------------------------------------
+[2020-04-22T11:13:29+08:00] 127.0.0.1 POST shop.nesm.com/admin/login/login
+[运行时间：1.280341s] [吞吐率：0.78req/s] [内存消耗：3,743.20kb] [文件加载：149]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'content-length' => '29',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://shop.nesm.com',
+  'referer' => 'http://shop.nesm.com/admin/login/loginView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '12345',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.343597s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user` [ RunTime:0.207486s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.207395s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_role` [ RunTime:0.207408s ]
+[ sql ] [ SQL ] SELECT * FROM `run_role` WHERE  `id` = 0 [ RunTime:0.205970s ]
+[ error ] [0]类的属性不存在:app\admin\model\UserModel->robot[D:\work\code\nesm_shop\thinkphp\library\think\model\concern\Attribute.php:559]
+---------------------------------------------------------------
+[2020-04-22T11:13:36+08:00] 127.0.0.1 POST shop.nesm.com/admin/login/login
+[运行时间：1.295423s] [吞吐率：0.77req/s] [内存消耗：3,743.48kb] [文件加载：149]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'content-length' => '29',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://shop.nesm.com',
+  'referer' => 'http://shop.nesm.com/admin/login/loginView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '12345',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.345278s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user` [ RunTime:0.206891s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.209540s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_role` [ RunTime:0.206769s ]
+[ sql ] [ SQL ] SELECT * FROM `run_role` WHERE  `id` = 0 [ RunTime:0.206906s ]
+[ error ] [0]类的属性不存在:app\admin\model\UserModel->robot[D:\work\code\nesm_shop\thinkphp\library\think\model\concern\Attribute.php:559]
+---------------------------------------------------------------
+[2020-04-22T11:18:30+08:00] 127.0.0.1 POST shop.nesm.com/admin/login/login
+[运行时间：1.348285s] [吞吐率：0.74req/s] [内存消耗：3,634.69kb] [文件加载：146]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'content-length' => '29',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://shop.nesm.com',
+  'referer' => 'http://shop.nesm.com/admin/login/loginView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '12345',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.358929s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user` [ RunTime:0.212363s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.216376s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_role` [ RunTime:0.212634s ]
+[ sql ] [ SQL ] SELECT * FROM `run_role` WHERE  `id` = 0 [ RunTime:0.212541s ]
+---------------------------------------------------------------
+[2020-04-22T11:18:35+08:00] 127.0.0.1 POST shop.nesm.com/admin/login/login
+[运行时间：1.699745s] [吞吐率：0.59req/s] [内存消耗：3,654.74kb] [文件加载：147]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'content-length' => '30',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://shop.nesm.com',
+  'referer' => 'http://shop.nesm.com/admin/login/loginView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.353849s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user` [ RunTime:0.208489s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.206416s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_role` [ RunTime:0.206363s ]
+[ sql ] [ SQL ] SELECT * FROM `run_role` WHERE  `id` = 0 [ RunTime:0.205696s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_shop_store` [ RunTime:0.205815s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_shop_store` WHERE  `uid` = 1013 LIMIT 1 [ RunTime:0.205772s ]
+---------------------------------------------------------------
+[2020-04-22T11:19:37+08:00] 127.0.0.1 POST shop.nesm.com/admin/login/login
+[运行时间：1.904071s] [吞吐率：0.53req/s] [内存消耗：3,624.05kb] [文件加载：147]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'content-length' => '30',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://shop.nesm.com',
+  'referer' => 'http://shop.nesm.com/admin/login/loginView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.347737s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user` [ RunTime:0.206163s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.206004s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_role` [ RunTime:0.206187s ]
+[ sql ] [ SQL ] SELECT * FROM `run_role` WHERE  `id` = 0 [ RunTime:0.207424s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_shop_store` [ RunTime:0.205435s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_shop_store` WHERE  `uid` = 1013 LIMIT 1 [ RunTime:0.205090s ]
+[ sql ] [ SQL ] UPDATE `tp_user`  SET `last_ip` = '127.0.0.1' , `last_time` = '2020-04-22 11:19:37' , `login_count` = 1  WHERE  `id` = 1013 [ RunTime:0.206826s ]
+---------------------------------------------------------------
+[2020-04-22T11:19:38+08:00] 127.0.0.1 GET shop.nesm.com/admin/index/indexView
+[运行时间：1.110626s] [吞吐率：0.90req/s] [内存消耗：3,695.41kb] [文件加载：147]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://shop.nesm.com/admin/login/loginView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\nesm_shop\application\admin\view\index\index.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.367360s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_route` [ RunTime:0.216122s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.212868s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `route` = '/admin/index/indexView' LIMIT 1 [ RunTime:0.212948s ]
+[ error ] [0]类的属性不存在:app\admin\model\UserModel->avatar_explain[D:\work\code\nesm_shop\thinkphp\library\think\model\concern\Attribute.php:559]
+---------------------------------------------------------------
+[2020-04-22T11:19:40+08:00] 127.0.0.1 GET shop.nesm.com/admin/index/indexView
+[运行时间：1.068050s] [吞吐率：0.94req/s] [内存消耗：3,758.79kb] [文件加载：147]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\nesm_shop\application\admin\view\index\index.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.345472s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_route` [ RunTime:0.208443s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.208885s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `route` = '/admin/index/indexView' LIMIT 1 [ RunTime:0.208299s ]
+[ error ] [0]类的属性不存在:app\admin\model\UserModel->avatar_explain[D:\work\code\nesm_shop\thinkphp\library\think\model\concern\Attribute.php:559]
+---------------------------------------------------------------
+[2020-04-22T11:21:19+08:00] 127.0.0.1 GET shop.nesm.com/admin/index/indexView
+[运行时间：1.099500s] [吞吐率：0.91req/s] [内存消耗：3,760.93kb] [文件加载：147]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://shop.nesm.com/admin/login/loginView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\nesm_shop\application\admin\view\index\index.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.352655s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_route` [ RunTime:0.206830s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.207297s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `route` = '/admin/index/indexView' LIMIT 1 [ RunTime:0.206643s ]
+[ error ] [0]类的属性不存在:app\admin\model\UserModel->avatar_explain[D:\work\code\nesm_shop\thinkphp\library\think\model\concern\Attribute.php:559]
+---------------------------------------------------------------
+[2020-04-22T11:21:21+08:00] 127.0.0.1 GET shop.nesm.com/admin/index/indexView
+[运行时间：1.111262s] [吞吐率：0.90req/s] [内存消耗：3,759.40kb] [文件加载：147]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'pgv_pvi=794123264; thinkphp_show_page_trace=0|0; PHPSESSID=4vp09bv62mn9tooeipv1b7hnfb',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\nesm_shop\application\admin\view\index\index.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.357925s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_route` [ RunTime:0.217123s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.216295s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `route` = '/admin/index/indexView' LIMIT 1 [ RunTime:0.215598s ]
+[ error ] [0]类的属性不存在:app\admin\model\UserModel->avatar_explain[D:\work\code\nesm_shop\thinkphp\library\think\model\concern\Attribute.php:559]
+---------------------------------------------------------------
+[2020-04-22T11:21:38+08:00] 127.0.0.1 GET shop.nesm.com/admin/index/indexView
+[运行时间：0.076762s] [吞吐率：13.03req/s] [内存消耗：2,036.86kb] [文件加载：125]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://shop.nesm.com/admin/login/loginView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-22T11:21:39+08:00] 127.0.0.1 GET shop.nesm.com/admin/login/loginView
+[运行时间：0.850610s] [吞吐率：1.18req/s] [内存消耗：3,315.67kb] [文件加载：139]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://shop.nesm.com/admin/login/loginView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=i5i9gc3d5krcc8s0a0c9k7ios7',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\nesm_shop\application\admin\view\login\login.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.350060s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_route` [ RunTime:0.207400s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `route` = '/admin/login/loginView' LIMIT 1 [ RunTime:0.208922s ]
+---------------------------------------------------------------
+[2020-04-22T11:21:40+08:00] 127.0.0.1 GET shop.nesm.com/admin/login/loginView
+[运行时间：0.888173s] [吞吐率：1.13req/s] [内存消耗：3,314.02kb] [文件加载：139]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=i5i9gc3d5krcc8s0a0c9k7ios7',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\nesm_shop\application\admin\view\login\login.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.353735s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_route` [ RunTime:0.212305s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `route` = '/admin/login/loginView' LIMIT 1 [ RunTime:0.216285s ]
+---------------------------------------------------------------
+[2020-04-22T11:21:46+08:00] 127.0.0.1 POST shop.nesm.com/admin/login/login
+[运行时间：1.910765s] [吞吐率：0.52req/s] [内存消耗：3,625.85kb] [文件加载：147]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'content-length' => '30',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://shop.nesm.com',
+  'referer' => 'http://shop.nesm.com/admin/login/loginView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=i5i9gc3d5krcc8s0a0c9k7ios7',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.352428s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user` [ RunTime:0.208498s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.207558s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_role` [ RunTime:0.207060s ]
+[ sql ] [ SQL ] SELECT * FROM `run_role` WHERE  `id` = 0 [ RunTime:0.207869s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_shop_store` [ RunTime:0.205411s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_shop_store` WHERE  `uid` = 1013 LIMIT 1 [ RunTime:0.207157s ]
+[ sql ] [ SQL ] UPDATE `tp_user`  SET `last_ip` = '127.0.0.1' , `last_time` = '2020-04-22 11:21:46' , `login_count` = 2  WHERE  `id` = 1013 [ RunTime:0.209120s ]
+---------------------------------------------------------------
+[2020-04-22T11:21:47+08:00] 127.0.0.1 GET shop.nesm.com/admin/index/indexView
+[运行时间：1.135050s] [吞吐率：0.88req/s] [内存消耗：3,648.63kb] [文件加载：144]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://shop.nesm.com/admin/login/loginView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=i5i9gc3d5krcc8s0a0c9k7ios7',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\nesm_shop\application\admin\view\index\index.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.382188s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_route` [ RunTime:0.216167s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.218510s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `route` = '/admin/index/indexView' LIMIT 1 [ RunTime:0.214386s ]
+---------------------------------------------------------------
+[2020-04-22T11:21:49+08:00] 127.0.0.1 GET shop.nesm.com/admin/index/indexView
+[运行时间：1.076770s] [吞吐率：0.93req/s] [内存消耗：3,711.63kb] [文件加载：144]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=i5i9gc3d5krcc8s0a0c9k7ios7',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\nesm_shop\application\admin\view\index\index.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.348892s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_route` [ RunTime:0.208318s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.212739s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `route` = '/admin/index/indexView' LIMIT 1 [ RunTime:0.209842s ]
+---------------------------------------------------------------
+[2020-04-22T11:21:51+08:00] 127.0.0.1 GET shop.nesm.com/admin/shop/shopView
+[运行时间：1.146148s] [吞吐率：0.87req/s] [内存消耗：3,729.25kb] [文件加载：144]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://shop.nesm.com/admin/index/indexView',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=i5i9gc3d5krcc8s0a0c9k7ios7',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\nesm_shop\application\admin\view\shop\shop.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+  18 => 'shop_goods_auth',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.366306s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_route` [ RunTime:0.222550s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.228478s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `route` = '/admin/shop/shopView' LIMIT 1 [ RunTime:0.212802s ]
+---------------------------------------------------------------
+[2020-04-22T11:21:52+08:00] 127.0.0.1 GET shop.nesm.com/admin/shop/shopView
+[运行时间：1.115925s] [吞吐率：0.90req/s] [内存消耗：3,727.59kb] [文件加载：144]
+[ info ] [ LANG ] D:\work\code\nesm_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shop.nesm.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=i5i9gc3d5krcc8s0a0c9k7ios7',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\work\code\nesm_shop\application\admin\view\shop\shop.html [ array (
+  0 => 'os',
+  1 => 'logo',
+  2 => 'version',
+  3 => 'static_url',
+  4 => 'module_url',
+  5 => 'plugin_url',
+  6 => 'public_url',
+  7 => 'ctrl_res_url',
+  8 => 'ctrl_url',
+  9 => 'module',
+  10 => 'controller',
+  11 => 'action',
+  12 => 'priv',
+  13 => 'position',
+  14 => 'top',
+  15 => 'sec',
+  16 => 'cur',
+  17 => 'user',
+  18 => 'shop_goods_auth',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.352812s ] mysql:host=rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `run_route` [ RunTime:0.211439s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `enable` = 1 ORDER BY `weight` DESC,`id` ASC [ RunTime:0.216614s ]
+[ sql ] [ SQL ] SELECT * FROM `run_route` WHERE  `route` = '/admin/shop/shopView' LIMIT 1 [ RunTime:0.212655s ]

@@ -1,0 +1,70 @@
+{extend name='public/iframe' /}
+
+{block name='link'}
+<link rel="stylesheet" href="{$public_url}/css/thing.css?version={$version}">
+<link rel="stylesheet" href="{$ctrl_res_url}/css/thing.css?version={$version}">
+{/block}
+
+{block name='body'}
+<!--<form class="layui-form layui-form-pane" method="post" id="form">-->
+<form class="layui-form" id="form">
+    <div class="layui-form-item">
+        <label class="layui-form-label">名称<b class="font-red">*</b></label>
+        <div class="layui-input-block">
+            <input type="text" name="name" required="required" value="{$thing->name ?? ''}"  lay-verify="required" class="layui-input">
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">上级分类<b class="font-red">*</b></label>
+        <div class="layui-input-block">
+            <select name="p_id" required="required" lay-verify="required">
+                <option value=""></option>
+                <option value="0" {if ($thing->p_id ?? '') == '0'}selected="selected"{/if}>顶级分类</option>
+                {foreach $article_type as $v}
+                <option value="{$v['id']}" {if $v['id'] == ($thing->p_id ?? '')}selected="selected"{/if}>
+                    {if $v['floor'] <= 1}
+                        {$v['name']}
+                    {else /}
+                        {php}
+                            echo '|' . str_repeat('_' , pow($v['floor'] , 2)) . $v['name'];
+                        {/php}
+                    {/if}
+                </option>
+                {/foreach}
+            </select>
+        </div>
+    </div>
+
+    <div class="layui-form-item layui-form-text">
+        <label class="layui-form-label">隐藏？<b class="font-red">*</b></label>
+        <div class="layui-input-block">
+            {foreach $bool as $k => $v}
+            {if $mode == 'edit'}
+            <input type="radio" name="hidden" value="{$k}" title="{$v}" {if $k == $thing->hidden}checked="checked"{/if}>
+            {else /}
+            <input type="radio" name="hidden" value="{$k}" title="{$v}" {if $k == 'n'}checked="checked"{/if}>
+            {/if}
+            {/foreach}
+        </div>
+    </div>
+
+    <div class="layui-form-item layui-form-text">
+        <label class="layui-form-label">权重</label>
+        <div class="layui-input-block">
+            <input type="number" step="0" name="weight" required="required" value="{$thing->weight ?? 0}" class="layui-input">
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <div class="layui-input-block">
+            <button class="layui-btn" lay-submit="submit" lay-filter="form">立即提交</button>
+        </div>
+    </div>
+
+</form>
+{/block}
+
+{block name='script'}
+<script src="{$ctrl_res_url}/js/thing.js?version={$version}"></script>
+{/block}

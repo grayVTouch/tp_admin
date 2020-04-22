@@ -1,0 +1,38 @@
+.layui-form {
+    font-size: 13px;
+}
+
+/*.layui-form .layui-form-item .layui-form-label {*/
+/*width: 120px;*/
+/*}*/
+
+/*.layui-form .layui-form-item .layui-input-block {*/
+/*margin-left: 150px;*/
+/*}*/
+
+.layui-form .line {
+    margin-bottom: 20px;
+}
+
+.layui-form .line:nth-last-of-type(1) {
+    margin-bottom: 0;
+}
+
+.layui-form .image {
+    max-height: 100px;
+    margin-right: 10px;
+}
+
+
+.layui-form .progress {
+    width: 100px;
+    height: 20px;
+}
+
+.layui-form .progress .cur {
+
+}
+
+.layui-form .video {
+    max-height: 160px;
+}

@@ -1,0 +1,50 @@
+{extend name='public/iframe' /}
+
+{block name='link'}
+<link rel="stylesheet" href="{$public_url}/css/thing.css?version={$version}">
+<link rel="stylesheet" href="{$ctrl_res_url}/css/thing.css?version={$version}">
+{/block}
+
+{block name='body'}
+<!--<form class="layui-form layui-form-pane" method="post" id="form">-->
+<form class="layui-form" id="form">
+    <div class="layui-form-item">
+        <label class="layui-form-label">名称<b class="font-red">*</b></label>
+        <div class="layui-input-block">
+            <input type="text"  required="required" lay-verify="required" name="name" value="{$thing->name ?? ''}" class="layui-input">
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">key<b class="font-red">*</b></label>
+        <div class="layui-input-block">
+            <input type="text" name="key" required="required" lay-verify="required" value="{$thing->key ?? ''}" class="layui-input">
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">value</label>
+        <div class="layui-input-block">
+            <input type="text" name="value" value="{$thing->value ?? ''}" class="layui-input">
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">描述</label>
+        <div class="layui-input-block">
+            <input type="text" name="desc" value="{$thing->desc ?? ''}" class="layui-input">
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <div class="layui-input-block">
+            <button class="layui-btn" lay-submit="submit" lay-filter="form">立即提交</button>
+        </div>
+    </div>
+
+</form>
+{/block}
+
+{block name='script'}
+<script src="{$ctrl_res_url}/js/thing.js?version={$version}"></script>
+{/block}

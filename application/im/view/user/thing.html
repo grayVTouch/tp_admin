@@ -1,0 +1,59 @@
+{extend name='public/base' /}
+
+{block name='link'}
+<link rel="stylesheet" href="{$module_url}/public/css/thing.css?version={$version}">
+<link rel="stylesheet" href="{$module_url}/visa/css/thing.css?version={$version}">
+{/block}
+
+{block name='body'}
+<!--<form class="layui-form layui-form-pane" method="post" id="form">-->
+<form class="layui-form" id="form">
+    <div class="layui-form-item">
+        <label class="layui-form-label">名称<b class="font-red">*</b></label>
+        <div class="layui-input-block">
+            <input type="text" name="name" required="required" value="{$thing->name ?? ''}"  lay-verify="required" class="layui-input">
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">图片</label>
+        <div class="layui-input-block">
+            <div class="line">
+                <button type="button" class="layui-btn" id="image">
+                    <i class="layui-icon">&#xe67c;</i>图片
+                </button>
+            </div>
+            <div class="line" id="image-preview">
+                <img src="{$thing->image_explain ?? ''}" class="image">
+            </div>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">选择材料分组</label>
+        <div class="layui-input-block">
+            <select name="material_group_id" required="required"  lay-verify="required">
+                <option value="">请选择...</option>
+                {foreach $material_group as $v}
+                {if $mode == 'edit'}
+                <option value="{$v->id}" {if $thing->material_group_id == $v->id}selected="selected"{/if}>{$v->name}</option>
+                {else /}
+                <option value="{$v->id}">{$v->name}</option>
+                {/if}
+                {/foreach}
+            </select>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <div class="layui-input-block">
+            <button class="layui-btn" lay-submit lay-filter="form">立即提交</button>
+        </div>
+    </div>
+
+</form>
+{/block}
+
+{block name='script'}
+<script src="{$module_url}/material/js/thing.js?version={$version}"></script>
+{/block}
