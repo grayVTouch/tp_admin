@@ -78,5 +78,46 @@ class Image extends Auth
         ]);
     }
 
+    public function layuiEditImageUpload()
+    {
+        $file = $_FILES['file'] ?? null;
+        if (empty($file)) {
+            return json_encode([
+                'code' => 400 ,
+                'msg' => '请提供待上传的图片' ,
+            ]);
+        }
+        $url = 'http://upload.moeddcoin.vip:81/upfull?token=lucky';
+        $extension = get_extension($file['name']);
+        $filename = random(12 , 'mixed' , true);
+        $filename = sprintf('%s.%s' , $filename , $extension);
+        $curl_file = new CURLFile($file['tmp_name'] , $file['type'] , $filename);
+        $res = Http::post($url , [
+            'data' => [
+                'file' => $curl_file
+            ] ,
+        ]);
+        if (empty($res)) {
+            return json_encode([
+                'code' => 500 ,
+                'msg' => '网络问题 或 远程服务器没有返回任何响应' ,
+            ]);
+        }
+        $res = json_decode($res , true);
+        if ($res['code'] != 0) {
+            return json_encode([
+                'code' => 500 ,
+                'msg' => $res['data'] ,
+            ]);
+        }
+        return json_encode([
+            'code' => 0 ,
+            'msg' => '' ,
+            'data' => [
+                'src' => $res['data'] ,
+                'title' => $filename ,
+            ]
+        ]);
+    }
 
 }

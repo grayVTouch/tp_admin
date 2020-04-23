@@ -9,7 +9,9 @@
 namespace app\admin\model;
 
 
+use function admin\convert_obj;
 use function admin\get_value;
+use function admin\res_url;
 
 class ShopStoreModel extends Model
 {
@@ -22,6 +24,7 @@ class ShopStoreModel extends Model
         }
         $m->type_explain = get_value('business.shop_goods_auth' , $m->type);
         $m->status_explain = get_value('business.shop_status' , $m->status);
+        $m->pic_explain = res_url($m->pic);
     }
 
     public static function findByUid($uid)
@@ -31,6 +34,7 @@ class ShopStoreModel extends Model
         if (empty($res)) {
             return ;
         }
+        $res = convert_obj($res);
         self::single($res);
         return $res;
     }

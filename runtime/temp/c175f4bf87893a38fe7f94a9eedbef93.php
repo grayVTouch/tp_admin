@@ -1,4 +1,4 @@
-<?php /*a:2:{s:60:"D:\work\code\nesm_shop\application\admin\view\shop\shop.html";i:1587535344;s:62:"D:\work\code\nesm_shop\application\admin\view\public\base.html";i:1566960893;}*/ ?>
+<?php /*a:2:{s:67:"D:\work\code\nesm_shop\application\admin\view\shop_store\thing.html";i:1587537102;s:62:"D:\work\code\nesm_shop\application\admin\view\public\base.html";i:1566960893;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -102,7 +102,7 @@
     <div class="layui-form-item">
         <label class="layui-form-label">店铺名称</label>
         <div class="layui-input-block">
-            <input type="text" name="name" value="<?php echo isset($shop->name) ? htmlentities($shop->name) : ''; ?>" lay-verify="required" class="layui-input">
+            <input type="text" name="name" value="<?php echo isset($thing->name) ? htmlentities($thing->name) : ''; ?>" lay-verify="required" class="layui-input">
         </div>
     </div>
 
@@ -115,7 +115,7 @@
                 </button>
             </div>
             <div class="line" id="image-preview">
-                <img src="<?php echo isset($shop->pic_explain) ? htmlentities($shop->pic_explain) : ''; ?>" class="image">
+                <img src="<?php echo isset($thing->pic_explain) ? htmlentities($thing->pic_explain) : ''; ?>" class="image">
             </div>
         </div>
     </div>
@@ -123,21 +123,21 @@
     <div class="layui-form-item">
         <label class="layui-form-label">店铺介绍</label>
         <div class="layui-input-block">
-            <input type="text" name="introduction" value="<?php echo isset($shop->introduction) ? htmlentities($shop->introduction) : ''; ?>" lay-verify="required" class="layui-input">
+            <input type="text" name="introduction" value="<?php echo isset($thing->introduction) ? htmlentities($thing->introduction) : ''; ?>" lay-verify="required" class="layui-input">
         </div>
     </div>
 
     <div class="layui-form-item">
         <label class="layui-form-label">客服id</label>
         <div class="layui-input-block">
-            <input type="text" name="kf_uid" value="<?php echo isset($shop->kf_uid) ? htmlentities($shop->kf_uid) : ''; ?>" lay-verify="required" class="layui-input">
+            <input type="text" name="kf_uid" value="<?php echo isset($thing->kf_uid) ? htmlentities($thing->kf_uid) : ''; ?>" lay-verify="required" class="layui-input">
         </div>
     </div>
 
     <div class="layui-form-item">
         <label class="layui-form-label">商品审核</label>
         <div class="layui-input-block">
-            <input type="text" name="type" value="<?php echo isset($shop->type_explain) ? htmlentities($shop->type_explain) : ''; ?>" readonly="readonly" class="layui-input">
+            <input type="text" name="type" value="<?php echo isset($thing->type_explain) ? htmlentities($thing->type_explain) : ''; ?>" readonly="readonly" class="layui-input">
             <span class="font-gray f-12">该字段禁止修改</span>
         </div>
 
@@ -146,7 +146,7 @@
     <div class="layui-form-item">
         <label class="layui-form-label">店铺状态</label>
         <div class="layui-input-block">
-            <input type="text" name="type" value="<?php echo isset($shop->status_explain) ? htmlentities($shop->status_explain) : ''; ?>" readonly="readonly" class="layui-input">
+            <input type="text" name="type" value="<?php echo isset($thing->status_explain) ? htmlentities($thing->status_explain) : ''; ?>" readonly="readonly" class="layui-input">
             <span class="font-gray f-12">该字段禁止修改</span>
         </div>
     </div>
@@ -154,6 +154,7 @@
     <div class="layui-form-item">
         <div class="layui-input-block">
             <button class="layui-btn" lay-submit="submit" lay-filter="form">立即提交</button>
+            <input type="hidden" name="id" value="<?php echo isset($thing->id) ? htmlentities($thing->id) : ''; ?>">
         </div>
     </div>
 </form>
@@ -171,7 +172,7 @@
 <script src="<?php echo htmlentities($module_url); ?>/public/js/currency.js?version=<?php echo htmlentities($version); ?>"></script>
 <script src="<?php echo htmlentities($module_url); ?>/public/js/public.js?version=<?php echo htmlentities($version); ?>"></script>
 
-<script src="<?php echo htmlentities($ctrl_res_url); ?>/js/shop.js?version=<?php echo htmlentities($version); ?>"></script>
+<script src="<?php echo htmlentities($ctrl_res_url); ?>/js/thing.js?version=<?php echo htmlentities($version); ?>"></script>
 
 </body>
 </html>

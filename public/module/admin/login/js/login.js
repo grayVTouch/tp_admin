@@ -10,7 +10,7 @@
         data.username = dom.username.val();
         data.password = dom.password.val();
         var index = loading();
-        post('/login/login' , {
+        post(genUrl('/login/login') , {
             data: data ,
             success: function(res){
                 layer.close(index);
@@ -18,7 +18,7 @@
                     error(res.data);
                     return ;
                 }
-                toLink('/index/indexView');
+                toLink(genUrl('/index/indexView'));
             } ,
         });
     });

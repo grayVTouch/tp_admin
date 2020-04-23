@@ -1,0 +1,42 @@
+.run-dynamic-input {
+
+}
+
+.run-dynamic-input .run-top {
+    margin-bottom: 12px;
+}
+
+.run-dynamic-input .run-btm {
+
+}
+
+.run-dynamic-input .run-btm .run-line {
+    margin-bottom: 12px;
+}
+
+.run-dynamic-input .run-btm .run-line .delete {
+    display: inline-block;
+    width: 30px;
+    height:30px;
+    text-align: center;
+    line-height: 30px;
+    font-weight: bold;
+    border-radius: 30px;
+    background-color: #f73737;
+    color: white;
+    cursor: pointer;
+}
+
+.run-dynamic-input .run-btm .run-line .run-input {
+    height: 30px;
+    line-height: 30px;
+}
+
+.run-dynamic-input .run-btm .run-line .run-image {
+    display: inline-block;
+}
+
+.run-dynamic-input .run-btm .run-line .run-image .run-preview {
+    width: 30px;
+    height: 30px;
+}

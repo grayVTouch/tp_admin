@@ -1,7 +1,7 @@
 {extend name='public/base' /}
 
 {block name='link'}
-<link rel="stylesheet" href="{$public_url}/css/list.css?version={$version}">
+<link rel="stylesheet" href="{$public_url}/css/thing.css?version={$version}">
 {/block}
 
 {block name='body'}
@@ -10,7 +10,7 @@
     <div class="layui-form-item">
         <label class="layui-form-label">店铺名称</label>
         <div class="layui-input-block">
-            <input type="text" name="name" value="{$shop->name ?? ''}" lay-verify="required" class="layui-input">
+            <input type="text" name="name" value="{$thing->name ?? ''}" lay-verify="required" class="layui-input">
         </div>
     </div>
 
@@ -23,7 +23,7 @@
                 </button>
             </div>
             <div class="line" id="image-preview">
-                <img src="{$shop->pic_explain ?? ''}" class="image">
+                <img src="{$thing->pic_explain ?? ''}" class="image">
             </div>
         </div>
     </div>
@@ -31,21 +31,21 @@
     <div class="layui-form-item">
         <label class="layui-form-label">店铺介绍</label>
         <div class="layui-input-block">
-            <input type="text" name="introduction" value="{$shop->introduction ?? ''}" lay-verify="required" class="layui-input">
+            <input type="text" name="introduction" value="{$thing->introduction ?? ''}" lay-verify="required" class="layui-input">
         </div>
     </div>
 
     <div class="layui-form-item">
         <label class="layui-form-label">客服id</label>
         <div class="layui-input-block">
-            <input type="text" name="kf_uid" value="{$shop->kf_uid ?? ''}" lay-verify="required" class="layui-input">
+            <input type="text" name="kf_uid" value="{$thing->kf_uid ?? ''}" lay-verify="required" class="layui-input">
         </div>
     </div>
 
     <div class="layui-form-item">
         <label class="layui-form-label">商品审核</label>
         <div class="layui-input-block">
-            <input type="text" name="type" value="{$shop->type_explain ?? ''}" readonly="readonly" class="layui-input">
+            <input type="text" name="type" value="{$thing->type_explain ?? ''}" readonly="readonly" class="layui-input">
             <span class="font-gray f-12">该字段禁止修改</span>
         </div>
 
@@ -54,7 +54,7 @@
     <div class="layui-form-item">
         <label class="layui-form-label">店铺状态</label>
         <div class="layui-input-block">
-            <input type="text" name="type" value="{$shop->status_explain ?? ''}" readonly="readonly" class="layui-input">
+            <input type="text" name="type" value="{$thing->status_explain ?? ''}" readonly="readonly" class="layui-input">
             <span class="font-gray f-12">该字段禁止修改</span>
         </div>
     </div>
@@ -62,6 +62,7 @@
     <div class="layui-form-item">
         <div class="layui-input-block">
             <button class="layui-btn" lay-submit="submit" lay-filter="form">立即提交</button>
+            <input type="hidden" name="id" value="{$thing->id ?? ''}">
         </div>
     </div>
 </form>
@@ -69,5 +70,5 @@
 {/block}
 
 {block name='script'}
-<script src="{$ctrl_res_url}/js/shop.js?version={$version}"></script>
+<script src="{$ctrl_res_url}/js/thing.js?version={$version}"></script>
 {/block}

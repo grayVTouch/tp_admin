@@ -1,12 +1,16 @@
 (function(){
     "use strict";
 
+    topContext.route.query = {
+        mode: 'edit' ,
+    };
+
     var app = {
         data: {
-            url: '/user/update',
+            // 请求的 url
+            // url: genUrl('/shop/' + topContext.route.query.mode) ,
+            url: genUrl('/shop/' + topContext.route.query.mode) ,
             dom: {} ,
-            image: '' ,
-            once: true ,
         } ,
 
         initDom: function(){
@@ -16,23 +20,27 @@
 
         initEvent: function(){
             var self = this;
+
+            // 表单提交
             this.data.dom.form.on('submit' , function (e) {
                 e.preventDefault();
             });
+
             // 表单上传
             layui.form.on('submit(form)' , function(res){
                 var data = Object.assign({} , res.field);
-                if (topContext.route.query.mode == 'edit') {
-                    data.id = topContext.route.query.id;
-                }
-                data.avatar = self.data.image;
+                // if (topContext.route.query.mode == 'edit') {
+                //     data.id = topContext.route.query.id;
+                // }
+                data.pic = self.data.image;
                 request({
                     url: self.data.url ,
                     data: data ,
                     tip: false ,
                     success: function(res){
                         success('操作成功' , {
-                            btn: ['继续操作' , '关闭窗口'] ,
+                            // btn: ['继续' + (topContext.route.query.mode == 'edit' ? '编辑' : '添加') , '关闭窗口'] ,
+                            btn: ['继续' + (topContext.route.query.mode == 'edit' ? '编辑' : '添加')] ,
                             btn1: function(index){
                                 layer.close(index);
                             } ,
@@ -45,6 +53,7 @@
                 });
                 return false;
             });
+
             // 图片上传
             layui.upload.render({
                 //绑定元素
@@ -74,6 +83,7 @@
                     //请求异常回调
                 }
             });
+
         } ,
 
         initialize: function(){

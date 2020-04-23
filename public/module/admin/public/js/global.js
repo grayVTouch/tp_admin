@@ -5,6 +5,7 @@ var topContext = {
     aliyunVideo: 'http://gaowan-oss.32me.cn/' ,
     layuiImageHost: '/admin/image/layui_image' ,
     iviewUploadUrl: '/admin/image/iview_image' ,
+    // 图片上传
     ossUrl: 'http://upload.moeddcoin.vip:81/upfull?token=lucky' ,
     wangEditor: '/admin/image/wangEditor' ,
     wangEditorFieldName: 'image[]' ,
@@ -12,6 +13,8 @@ var topContext = {
     layuiTableIdWidth: 100 ,
     layuiOperationCellWidth: 200 ,
     layuiImageField: 'image' ,
+    // 列表每页显示记录数
+    limit: 4 ,
     layuiTableResponse: {
         //规定数据状态的字段名称，默认：code
         statusName: 'code' ,

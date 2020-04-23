@@ -1,0 +1,218 @@
+{extend name='public/base' /}
+
+{block name='link'}
+<link rel="stylesheet" href="{$public_url}/css/thing.css?version={$version}">
+<link rel="stylesheet" href="{$ctrl_res_url}/css/thing.css?version={$version}">
+{/block}
+
+{block name='body'}
+<form class="layui-form" id="form">
+
+    <div class="layui-tab">
+        <ul class="layui-tab-title">
+            <li class="layui-this">商品信息</li>
+            <li>商品介绍</li>
+            <li>商品规格</li>
+            <li>商品参数</li>
+            <li>商品图片</li>
+        </ul>
+        <div class="layui-tab-content">
+            <!-- 商品信息 -->
+            <div class="layui-tab-item layui-show">
+                <div class="layui-form-item">
+                    <label class="layui-form-label">名称</label>
+                    <div class="layui-input-block">
+                        <input type="text" name="name"  value="{$thing->name ?? ''}"  class="layui-input">
+                    </div>
+                </div>
+
+                <div class="layui-form-item">
+                    <label class="layui-form-label">一级分类</label>
+                    <div class="layui-input-block">
+                        <select name="cate_one_id">
+                            <option value="">请选择...</option>
+                            {foreach $category_one as $v}
+                            {if $mode == 'edit'}
+                            <option value="{$v->id}" {if $thing->cate_one_id == $v->id}selected="selected"{/if}>{$v->name}</option>
+                            {else /}
+                            <option value="{$v->id}">{$v->name}</option>
+                            {/if}
+                            {/foreach}
+                        </select>
+                    </div>
+                </div>
+
+                <div class="layui-form-item">
+                    <label class="layui-form-label">二级分类</label>
+                    <div class="layui-input-block">
+                        <select name="cate_two_id">
+                            <option value="">请选择...</option>
+                            {foreach $category_two as $v}
+                            {if $mode == 'edit'}
+                            <option value="{$v->id}" {if $thing->cate_two_id == $v->id}selected="selected"{/if}>{$v->name}</option>
+                            {else /}
+                            <option value="{$v->id}">{$v->name}</option>
+                            {/if}
+                            {/foreach}
+                        </select>
+                    </div>
+                </div>
+
+                <div class="layui-form-item">
+                    <label class="layui-form-label">运费</label>
+                    <div class="layui-input-block">
+                        <input type="text" name="freight"  value="{$thing->freight ?? ''}" class="layui-input">
+                    </div>
+                </div>
+
+                <div class="layui-form-item">
+                    <label class="layui-form-label">图标</label>
+                    <div class="layui-input-block">
+                        <div class="line">
+                            <button type="button" class="layui-btn" id="image">
+                                <i class="layui-icon">&#xe67c;</i>图标
+                            </button>
+                        </div>
+                        <div class="line" id="image-preview">
+                            <img src="{$thing->pic_explain ?? ''}" class="image">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="layui-form-item">
+                    <label class="layui-form-label">简介</label>
+                    <div class="layui-input-block">
+                        <textarea name="into" placeholder="简介"  class="layui-textarea">{$thing->into ?? ''}</textarea>
+                    </div>
+                </div>
+
+                <div class="layui-form-item">
+                    <label class="layui-form-label">是否热门</label>
+                    <div class="layui-input-block">
+                        {foreach $bool as $k => $v}
+                        {if $mode == 'edit'}
+                        <input type="radio" name="is_hot" value="{$k}" title="{$v}" {if $k == $thing->is_hot}checked="checked"{/if}>
+                        {else /}
+                        <input type="radio" name="is_hot" value="{$k}" title="{$v}" {if $k == 0}checked="checked"{/if}>
+                        {/if}
+                        {/foreach}
+                    </div>
+                </div>
+
+                <div class="layui-form-item">
+                    <label class="layui-form-label">是否推荐</label>
+                    <div class="layui-input-block">
+                        {foreach $bool as $k => $v}
+                        {if $mode == 'edit'}
+                        <input type="radio" name="is_recommend" value="{$k}" title="{$v}" {if $k == $thing->is_recommend}checked="checked"{/if}>
+                        {else /}
+                        <input type="radio" name="is_recommend" value="{$k}" title="{$v}" {if $k == 0}checked="checked"{/if}>
+                        {/if}
+                        {/foreach}
+                    </div>
+                </div>
+
+                <div class="layui-form-item">
+                    <label class="layui-form-label">商品状态</label>
+                    <div class="layui-input-block">
+                        {foreach $status as $k => $v}
+                        {if $mode == 'edit'}
+                        <input type="radio" name="status" value="{$k}" title="{$v}" {if $k == $thing->status}checked="checked"{/if}>
+                        {else /}
+                        <input type="radio" name="status" value="{$k}" title="{$v}" {if $k == 0}checked="checked"{/if}>
+                        {/if}
+                        {/foreach}
+                    </div>
+                </div>
+            </div>
+            <!-- 商品简介 -->
+            <div class="layui-tab-item">
+                <textarea id="introduction">{if $mode == 'edit' && !empty($thing->my_introduction)}{$thing->my_introduction->introduction}{/if}</textarea>
+            </div>
+            <!-- 商品规格 -->
+            <div class="layui-tab-item run-dynamic-input" id="goods_rule" {if $mode == 'edit' && !empty($thing->shop_rule)}data-data="{$thing->shop_rule|json_encode}"{/if}>
+                <div class="run-top">
+                    <button class="layui-btn layui-btn-sm" @click="add">添加</button>
+                </div>
+                <div class="run-btm">
+                    <div class="run-line" v-for="(v,k) in res">
+                        <span class="delete" @click.stop="del(k)">-</span>
+                        <div class="run-image">
+                            <button type="button" class="layui-btn" :id="'run_upload_' + k" :ref="'run_upload_' + k">
+                                <i class="layui-icon">&#xe67c;</i>图标
+                            </button>
+                            <img :src="v.pic_explain" class="run-preview" :ref="'run_preview_' + k">
+                        </div>
+                        <input type="text" placeholder="规格" v-model="v.name" class="run-input">
+                        <input type="text" placeholder="库存" v-model="v.stock" class="run-input">
+                        <input type="text" placeholder="价格" v-model="v.price" class="run-input">
+                        <input type="text" placeholder="原始价格" v-model="v.original_price" class="run-input">
+                    </div>
+                </div>
+            </div>
+            <!-- 商品参数 -->
+            <div class="layui-tab-item run-dynamic-input" id="shop_param" {if $mode == 'edit' && !empty($thing->shop_param)}data-data="{$thing->shop_param|json_encode}"{/if}>
+                <div class="run-top">
+                    <button class="layui-btn layui-btn-sm" @click="add">添加</button>
+                </div>
+                <div class="run-btm">
+
+                    <div class="run-line" v-for="(v,k) in res">
+                        <span class="delete" @click="del(k)">-</span>
+                        <input type="text" placeholder="名称" v-model="v.param_name" class="run-input">
+                        <input type="text" placeholder="值" v-model="v.param_value" class="run-input">
+                    </div>
+
+                </div>
+            </div>
+            <!-- 商品图片 -->
+            <div class="layui-tab-item" id="goods_image" {if $mode == 'edit' && !empty($thing->image)}data-data="{$thing->image|json_encode}"{/if}>
+                <div class="top">
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">商品简介图片</label>
+                        <div class="layui-input-block">
+                            <div class="line">
+                                <button type="button" class="layui-btn" ref="upload">
+                                    <i class="layui-icon">&#xe67c;</i>图标
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="btm">
+                    <table class="layui-table">
+                        <thead>
+                        <tr>
+                            <th>图片</th>
+                            <th>操作</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr v-for="(v,k) in res">
+                            <td><img :src="v.pic_explain" class="image" /></td>
+                            <td><button class="layui-btn layui-btn-sm" @click="del(k)">删除</button></td>
+                        </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="layui-form-item">
+        <div class="layui-input-block">
+            <button class="layui-btn" lay-submit="submit" lay-filter="form">立即提交</button>
+        </div>
+    </div>
+
+</form>
+{/block}
+
+{block name='script'}
+<script src="{$public_url}/js/vue.min.js?version={$version}"></script>
+<script src="{$ctrl_res_url}/js/thing.js?version={$version}"></script>
+{/block}

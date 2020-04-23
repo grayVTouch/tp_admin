@@ -1,4 +1,4 @@
-<?php /*a:2:{s:62:"D:\work\code\nesm_shop\application\admin\view\login\login.html";i:1563357775;s:62:"D:\work\code\nesm_shop\application\admin\view\public\form.html";i:1561203473;}*/ ?>
+<?php /*a:2:{s:62:"D:\work\code\nesm_shop\application\admin\view\login\login.html";i:1587606749;s:62:"D:\work\code\nesm_shop\application\admin\view\public\form.html";i:1561203473;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -42,6 +42,7 @@
 <script src="<?php echo htmlentities($module_url); ?>/public/js/lib.js?version=<?php echo htmlentities($version); ?>"></script>
 <script src="<?php echo htmlentities($module_url); ?>/public/js/global.js?version=<?php echo htmlentities($version); ?>"></script>
 
+<script src="<?php echo htmlentities($module_url); ?>/public/js/currency.js?version=<?php echo htmlentities($version); ?>"></script>
 <script src="<?php echo htmlentities($module_url); ?>/login/js/login.js?version=<?php echo htmlentities($version); ?>"></script>
 
 </body>

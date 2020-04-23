@@ -1,7 +1,7 @@
 // post 请求
 function post(uri  ,option) {
     option.method = 'POST';
-    option.url = topContext.host + uri;
+    option.url = uri;
     option.error = function(info , type , msg){
         layer.closeAll();
         error('<p>服务器发生错误，请稍后再试！</p><p style="font-size: 12px;color: #555;padding-top: 10px;">如果多次发生同样的错误，请联系开发人员</p>');
@@ -42,7 +42,7 @@ function info (msg , option = {}) {
 }
 
 function toLink(uri){
-    window.location.href = topContext.host + uri;
+    window.location.href = uri;
 }
 
 function openLink(uri){

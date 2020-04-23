@@ -7,7 +7,7 @@
 
     dom.logout.on('click' , function(){
         var index = loading();
-        post('/admin/logout' , {
+        post(genUrl('/user/logout') , {
             success: function(){
                 layer.close(index);
                 window.history.go(0);

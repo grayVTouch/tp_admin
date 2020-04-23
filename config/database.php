@@ -14,16 +14,17 @@ return [
 	// 数据库类型
 	'type' => 'mysql',
 	// 服务器地址
-	'hostname' => 'rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com',
-//    'hostname'        => '127.0.0.1',
+//	'hostname' => 'rm-t4n09e14u6vu17533io.mysql.singapore.rds.aliyuncs.com',
+    'hostname'        => '127.0.0.1',
 	// 数据库名
-	'database' => 'shop',
+//	'database' => 'shop',
+	'database' => 'nesm',
 	// 用户名
-	'username' => 'shop',
-//    'username'        => 'root',
+//	'username' => 'shop',
+    'username'        => 'root',
 	// 密码
-	'password' => 'shopshop',
-//    'password'        => '364793',
+//	'password' => 'shopshop',
+    'password'        => '364793',
 	// 端口
 	'hostport' => '',
 	// 连接dsn
